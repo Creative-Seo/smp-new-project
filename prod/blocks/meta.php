@@ -10,10 +10,10 @@
     <meta name="keywords" content="<?php echo $keywords; ?>" />
     <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 	
-    <noscript>
+   
     <link rel="stylesheet" href="http://vptorg.ru/css/style.min.css">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.css" />
-    </noscript>
+    
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
