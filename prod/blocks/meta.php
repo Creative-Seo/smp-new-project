@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT']."/smp/dev/config.php";?>
+<?php include $rootpath."config.php";?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
