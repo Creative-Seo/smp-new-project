@@ -2,10 +2,10 @@ Options All -ExecCGI -Indexes -Includes +FollowSymLinks
   
 RewriteEngine On
 RewriteBase /
-    RewriteCond %{HTTP_HOST} ^xn---245-u5dsm.xn--p1ai
-    RewriteRule (.*) http://www.xn---245-u5dsm.xn--p1ai/$1 [R=301,L]
+    RewriteCond %{HTTP_HOST} ^vptorg.ru
+    RewriteRule (.*) http://www.vptorg.ru/$1 [R=301,L]
     RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
-    RewriteRule ^index\.php$ http://www.xn---245-u5dsm.xn--p1ai/ [R=301,L]
+    RewriteRule ^index\.php$ http://www.vptorg.ru/ [R=301,L]
 
 
 

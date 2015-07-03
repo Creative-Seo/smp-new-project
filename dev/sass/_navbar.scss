@@ -39,7 +39,7 @@ nav {
                     	color: $nav-link-color;
                         font-weight: 300;
                         padding: 20px 25px;
-                      &:hover {
+                      &:hover, &:focus  {
                     	background-color:$nav-link-color-hover;
                     	text-shadow: 0 0 8px white;
                     	                        

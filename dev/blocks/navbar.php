@@ -8,10 +8,10 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="visible-xs" href="/">
+        <!-- <a class="visible-xs" href="/">
           СМП-245
           <span>Трансстрой</span>
-        </a>
+        </a> -->
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">

@@ -31,7 +31,7 @@ jshint: {
 uglify: {
   my_target: {
     files: {
-        'prod/js/scripts.min.js': ['libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/js/jquery.fancybox.js', 'dev/js/helpers/jquery.fancybox-thumbs.js', 'dev/js/jquery.mousewheel-3.0.6.pack.js', 'dev/js/jquery.maskedinput.min.js', 'dev/js/jquery.carouFredSel-6.1.0-packed.js', 'dev/js/jquery.bxslider.min.js', 'dev/js/common.js']
+        'prod/js/scripts.min.js': ['dev/libs/jquery/dist/jquery.min.js', 'dev/js/jquery.bxslider.min.js', 'libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/js/jquery.fancybox.js', 'dev/js/helpers/jquery.fancybox-thumbs.js', 'dev/js/jquery.mousewheel-3.0.6.pack.js', 'dev/js/jquery.maskedinput.min.js', 'dev/js/jquery.carouFredSel-6.1.0-packed.js', 'dev/js/common.js']
       }
     }
   },
@@ -125,8 +125,8 @@ critical: {
             css: [
                 'prod/css/style.min.css'
             ],
-            width: 1200,
-            height: 700
+            width: 1600,
+            height: 1500
         },
         files: [{                                   
       expand: true,
@@ -159,7 +159,7 @@ critical: {
     grunt.loadNpmTasks('grunt-uncss');
 
     
-    grunt.registerTask('all', ['csso', 'autoprefixer', 'uglify', 'copy', 'processhtml']);
+    grunt.registerTask('all', ['csso', 'autoprefixer', 'uglify', 'copy', 'processhtml', 'htmlmin']);
     grunt.registerTask('default', ['uglify']);
 	  
 };

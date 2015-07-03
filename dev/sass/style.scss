@@ -21,6 +21,9 @@ article {
     text-indent: 20px;
     line-height: 1.8em;
 }
+
+ul li {list-style-type: none;
+}
    
 .numbers {
 	@include gradient-horizontal(#050a10, #0d1e32, 0%, 67%);
