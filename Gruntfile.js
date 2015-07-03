@@ -65,7 +65,7 @@ htmlmin: {                                     // Task
     files: [{                                   
 	    expand: true,
 		cwd: 'prod/',
-        src: ['*.php', '!config.php'],
+        src: ['**/*.php', '*.php', '!config.php'],
 		dest: 'prod/'     
        
     }]

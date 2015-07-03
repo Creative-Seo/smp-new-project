@@ -1,4 +1,4 @@
-<?php include $rootpath."config.php";?>
+<?php include $_SERVER['DOCUMENT_ROOT']."/smp/dev/config.php";?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -10,7 +10,9 @@
     <meta name="keywords" content="<?php echo $keywords; ?>" />
     <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 	
+    <!-- build:[href] http://vptorg.ru/-->
     <base href="<?php echo $rootpath; ?>">
+    <!-- /build -->
 
     <!-- build:css http://vptorg.ru/css/style.min.css -->
 	<link href="css/style.css" rel="stylesheet">
