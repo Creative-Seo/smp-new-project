@@ -1,0 +1,54 @@
+$nav-back-color: #0d1e32;
+$nav-link-color: #fff;
+$nav-link-color-hover: transparent;
+$nav-drodown-link-color: #fff;
+$nav-drodown-link-color-hover: #0d1e32;
+nav {
+	background-color: $nav-back-color;
+    &.navbar {
+    	border-radius: 0px;
+    	margin-bottom: 0px; 
+        .navbar-header {
+            .navbar-toggle {
+ 
+            }
+            .navbar-brand {
+ 
+            }
+        }
+        .nav {
+            &.navbar-nav {
+                > li {
+                	&.dropdown {
+                		ul {
+                			background-color: $nav-back-color;
+                			> li {
+                				a {
+                					color: $nav-drodown-link-color;
+                					padding: 10px;
+                				&:hover {
+                					color: $nav-drodown-link-color-hover
+                				}
+                				}
+                				
+                			}
+
+                		}
+                	}
+                    > a {
+                    	color: $nav-link-color;
+                        font-weight: 300;
+                        padding: 20px 25px;
+                      &:hover {
+                    	background-color:$nav-link-color-hover;
+                    	text-shadow: 0 0 8px white;
+                    	                        
+                    }    
+                    }
+                    
+                }
+            }
+           
+        }
+    }
+}

@@ -1,0 +1,57 @@
+$logo-color: #060f18;
+
+header {
+    padding: 25px 0;
+
+	#logo {
+		color: $logo-color;
+		font-size: 12px;
+
+		a {
+			color: $logo-color;
+            font-family: "PT Sans Narrow",sans-serif;
+            font-size: 44px;
+            font-weight: 700;
+            line-height: 1em;
+            text-align: center;
+            &:hover, &:focus, &:visited {
+			text-decoration: none;
+		}
+		}
+		
+	}
+	.center-header-block {
+		@include center-block;
+		font-size: 12px;
+
+        div {
+        	padding: 8px 0;
+            text-align: right;
+        }
+        a {
+        	border-bottom: 1px dotted #001e2d;
+        	i {
+        		margin-right: 5px;
+        	}
+        	&:hover, &:focus, &:visited {
+			text-decoration: none;
+		}
+        }
+        
+	}
+	.right-header-block {
+        color: $logo-color;
+        font-size: 12px;
+		div {
+			text-align: right;
+		}
+		.phone {
+			font-size: 18px;
+			span {
+				font-size: 32px;
+                font-weight: 700;
+			}
+		}
+
+	}
+}
