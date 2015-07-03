@@ -159,7 +159,7 @@ critical: {
     grunt.loadNpmTasks('grunt-uncss');
 
     
-    grunt.registerTask('all', ['csso', 'autoprefixer', 'uglify', 'copy', 'processhtml', 'htmlmin']);
+    grunt.registerTask('all', ['csso', 'autoprefixer', 'uglify', 'copy', 'processhtml']);
     grunt.registerTask('default', ['uglify']);
 	  
 };
