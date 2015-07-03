@@ -8,7 +8,7 @@ csso: {
       report: 'gzip'
     },
     files: {
-      'prod/css/style.min.css': ['dev/css/style.css', 'dev/css/jquery.fancybox.css', 'libs/font-awesome/css/font-awesome.css']
+      'prod/css/style.min.css': ['dev/css/style.css', 'dev/css/jquery.fancybox.css', 'libs/font-awesome/css/font-awesome.css', 'dev/css/jquery.bxslider.css']
     }
   }
 },
@@ -31,7 +31,7 @@ jshint: {
 uglify: {
   my_target: {
     files: {
-        'prod/js/scripts.min.js': ['libs/jquery/dist/jquery.js', 'libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/js/jquery.fancybox.js', 'dev/js/helpers/jquery.fancybox-thumbs.js', 'dev/js/jquery.mousewheel-3.0.6.pack.js', 'dev/js/jquery.maskedinput.min.js', 'dev/js/jquery.carouFredSel-6.1.0-packed.js', 'dev/js/jquery.bxslider.min.js', 'dev/js/common.js']
+        'prod/js/scripts.min.js': ['libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/js/jquery.fancybox.js', 'dev/js/helpers/jquery.fancybox-thumbs.js', 'dev/js/jquery.mousewheel-3.0.6.pack.js', 'dev/js/jquery.maskedinput.min.js', 'dev/js/jquery.carouFredSel-6.1.0-packed.js', 'dev/js/jquery.bxslider.min.js', 'dev/js/common.js']
       }
     }
   },
@@ -65,8 +65,8 @@ htmlmin: {                                     // Task
     files: [{                                   
 	    expand: true,
 		cwd: 'prod/',
-        src: ['*/**.php', '!config.php'],
-		dest: 'prod/'     // 'destination': 'source'
+        src: ['*.php', '!config.php'],
+		dest: 'prod/'     
        
     }]
     
@@ -126,12 +126,12 @@ critical: {
                 'prod/css/style.min.css'
             ],
             width: 1200,
-            height: 400
+            height: 700
         },
         files: [{                                   
       expand: true,
     cwd: 'prod/',
-        src: ['blocks/header.html'],
+        src: ['index.html'],
     dest: 'prod/'     // 'destination': 'source'
        
       }]
@@ -159,6 +159,7 @@ critical: {
     grunt.loadNpmTasks('grunt-uncss');
 
     
-    grunt.registerTask('default', ['csso', 'autoprefixer', 'uglify', 'copy', 'processhtml', 'htmlmin']);
+    grunt.registerTask('all', ['csso', 'autoprefixer', 'uglify', 'copy', 'processhtml', 'htmlmin']);
+    grunt.registerTask('default', ['uglify']);
 	  
 };

@@ -38,8 +38,8 @@
 	</div>
 </footer>
 
-<!-- build:js js/scripts.min.js --> 
 <script src="libs/jquery/dist/jquery.js"></script>
+<!-- build:js js/scripts.min.js --> 
 <script src="libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
 <script src="js/jquery.fancybox.js"></script>
 <script src="js/helpers/jquery.fancybox-thumbs.js"></script> 
