@@ -10,7 +10,8 @@
     <meta name="keywords" content="<?php echo $keywords; ?>" />
     <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 	
-   
+    <base href="<?php echo $rootpath; ?>">
+
     <link rel="stylesheet" href="http://vptorg.ru/css/style.min.css">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.css" />
     

@@ -10,11 +10,12 @@
     <meta name="keywords" content="<?php echo $keywords; ?>" />
     <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 	
-   
+    <base href="<?php echo $rootpath; ?>">
+
     <!-- build:css http://vptorg.ru/css/style.min.css -->
 	<link href="css/style.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/jquery.fancybox.css">
-    <link rel="stylesheet" href="libs/font-awesome/css/jquery.bxslider.css" />
+    <link rel="stylesheet" href="css/jquery.bxslider.css" />
     <!-- /build -->
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.css" />
     
