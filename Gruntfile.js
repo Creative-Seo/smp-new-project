@@ -8,7 +8,7 @@ csso: {
       report: 'gzip'
     },
     files: {
-      'prod/css/style.min.css': ['dev/css/style.css', 'dev/css/jquery.fancybox.css', 'libs/font-awesome/css/font-awesome.css', 'dev/css/jquery.bxslider.css']
+      'prod/css/style.min.css': ['dev/css/style.css', 'dev/css/jquery.fancybox.css', 'dev/css/jquery.bxslider.css']
     }
   }
 },
