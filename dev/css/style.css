@@ -5035,16 +5035,19 @@ nav {
       /* line 26, ../sass/_navbar.scss */
       nav.navbar .nav.navbar-nav > li.dropdown ul > li a {
         color: #fff;
-        padding: 10px; }
-        /* line 29, ../sass/_navbar.scss */
+        padding: 10px;
+        -webkit-transition: background-color 0.5s 0.1s, color 1s;
+        -o-transition: background-color 0.5s 0.1s, color 1s;
+        transition: background-color 0.5s 0.1s, color 1s; }
+        /* line 30, ../sass/_navbar.scss */
         nav.navbar .nav.navbar-nav > li.dropdown ul > li a:hover {
           color: #0d1e32; }
-    /* line 38, ../sass/_navbar.scss */
+    /* line 39, ../sass/_navbar.scss */
     nav.navbar .nav.navbar-nav > li > a {
       color: #fff;
       font-weight: 300;
       padding: 20px 25px; }
-      /* line 42, ../sass/_navbar.scss */
+      /* line 43, ../sass/_navbar.scss */
       nav.navbar .nav.navbar-nav > li > a:hover, nav.navbar .nav.navbar-nav > li > a:focus {
         background-color: transparent;
         text-shadow: 0 0 8px white; }
@@ -5278,7 +5281,59 @@ figure.effect-goliath:hover p {
   font-weight: 300;
   text-transform: none; }
 
-/* line 12, ../sass/style.scss */
+/* line 30, ../sass/_backToTop.scss */
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(232, 98, 86, 0.8) url(../img/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+  color: #e86256;
+  text-decoration: none; }
+  /* line 60, ../sass/_backToTop.scss */
+  .cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s; }
+  /* line 66, ../sass/_backToTop.scss */
+  .cd-top.cd-is-visible {
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 1; }
+  /* line 71, ../sass/_backToTop.scss */
+  .cd-top.cd-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    opacity: .5; }
+  /* line 75, ../sass/_backToTop.scss */
+  .no-touch .cd-top:hover {
+    background-color: #e86256;
+    opacity: 1; }
+  @media only screen and (min-width: 768px) {
+    /* line 30, ../sass/_backToTop.scss */
+    .cd-top {
+      right: 20px;
+      bottom: 20px; } }
+  @media only screen and (min-width: 1024px) {
+    /* line 30, ../sass/_backToTop.scss */
+    .cd-top {
+      height: 60px;
+      width: 60px;
+      right: 30px;
+      bottom: 30px; } }
+
+/* line 13, ../sass/style.scss */
 button {
   color: #fff;
   background-color: #21476b;
@@ -5321,17 +5376,17 @@ button {
     color: #21476b;
     background-color: #fff; }
 
-/* line 19, ../sass/style.scss */
+/* line 20, ../sass/style.scss */
 article {
   font-weight: 400;
   text-indent: 20px;
   line-height: 1.8em; }
 
-/* line 25, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 ul li {
   list-style-type: none; }
 
-/* line 28, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .numbers {
   background-image: -webkit-linear-gradient(left, #050a10 0%, #0d1e32 67%);
   background-image: -o-linear-gradient(left, #050a10 0%, #0d1e32 67%);
@@ -5343,28 +5398,28 @@ ul li {
   font-weight: 300;
   padding: 0;
   text-align: center; }
-  /* line 36, ../sass/style.scss */
+  /* line 37, ../sass/style.scss */
   .numbers > div div {
     padding: 40px 0; }
-    /* line 38, ../sass/style.scss */
+    /* line 39, ../sass/style.scss */
     .numbers > div div span {
       font-size: 83px;
       font-weight: 700; }
-    /* line 42, ../sass/style.scss */
+    /* line 43, ../sass/style.scss */
     .numbers > div div:first-child {
       background-color: #060F18; }
-    /* line 45, ../sass/style.scss */
+    /* line 46, ../sass/style.scss */
     .numbers > div div:nth-child(2) {
       background-color: #071321; }
-    /* line 48, ../sass/style.scss */
+    /* line 49, ../sass/style.scss */
     .numbers > div div:nth-child(3) {
       background-color: #0B1829; }
 
-/* line 56, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 .slide-setka {
   padding: 0; }
 
-/* line 59, ../sass/style.scss */
+/* line 60, ../sass/style.scss */
 #images span {
   background-color: black;
   color: #ccc;
@@ -5374,11 +5429,11 @@ ul li {
   height: 100%;
   padding: 40px 30px 0 30px; }
 
-/* line 69, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .feedback {
   padding-bottom: 54px;
   position: relative; }
-  /* line 73, ../sass/style.scss */
+  /* line 74, ../sass/style.scss */
   .feedback input[type="text"] {
     border: 1px solid #d7d7d7;
     border-radius: 0;
@@ -5386,7 +5441,7 @@ ul li {
     margin: 10px 0;
     padding: 10px;
     width: 328px; }
-  /* line 81, ../sass/style.scss */
+  /* line 82, ../sass/style.scss */
   .feedback textarea {
     border: 1px solid #d7d7d7;
     border-radius: 0;
@@ -5395,9 +5450,9 @@ ul li {
     max-width: 553px;
     padding: 10px;
     width: 553px; }
-  /* line 90, ../sass/style.scss */
+  /* line 91, ../sass/style.scss */
   .feedback .col-right {
     width: 575px; }
-    /* line 92, ../sass/style.scss */
+    /* line 93, ../sass/style.scss */
     .feedback .col-right button {
       float: left; }

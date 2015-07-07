@@ -8,6 +8,7 @@ body {font-family: $font;}
 @import "navbar";
 @import "footer";
 @import "effect-sadie";
+@import "backToTop";
 
 button {
 	@include button-variant(#fff, #21476b, transparent);

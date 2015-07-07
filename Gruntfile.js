@@ -31,7 +31,7 @@ jshint: {
 uglify: {
   my_target: {
     files: {
-        'prod/js/scripts.min.js': ['dev/libs/jquery/dist/jquery.min.js', 'dev/js/jquery.bxslider.min.js', 'libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/js/jquery.fancybox.js', 'dev/js/helpers/jquery.fancybox-thumbs.js', 'dev/js/jquery.mousewheel-3.0.6.pack.js', 'dev/js/jquery.maskedinput.min.js', 'dev/js/jquery.carouFredSel-6.1.0-packed.js', 'dev/js/common.js']
+        'prod/js/scripts.min.js': ['dev/libs/jquery/dist/jquery.min.js', 'dev/js/jquery.bxslider.min.js', 'dev/libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/js/jquery.fancybox.js', 'dev/js/helpers/jquery.fancybox-thumbs.js', 'dev/js/jquery.mousewheel-3.0.6.pack.js', 'dev/js/jquery.maskedinput.min.js', 'dev/js/jquery.carouFredSel-6.1.0-packed.js', 'dev/js/common.js']
       }
     }
   },

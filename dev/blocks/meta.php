@@ -10,9 +10,9 @@
     <meta name="keywords" content="<?php echo $keywords; ?>" />
     <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 	
-    <!-- build:[href] http://vptorg.ru/-->
+   
     <base href="<?php echo $rootpath; ?>">
-    <!-- /build -->
+  
 
     <!-- build:remove -->
     <link href="css/style.css" rel="stylesheet">
@@ -20,8 +20,9 @@
     <link rel="stylesheet" href="css/jquery.bxslider.css" />
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.css" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.css" />
     <!-- /build -->
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.css" />
+   
     
 
     

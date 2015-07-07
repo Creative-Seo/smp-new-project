@@ -78,13 +78,13 @@
 
 <div class="numbers">
 	<div class="container">
-		<div class="col-sm-4 col-lg-3 col-lg-offset-1">
+		<div class="col-sm-4 col-lg-3 col-lg-offset-1 col-xs-12">
 			<span>1956</span>
 			<br>год начала работы предприятия</div>
-		<div class="col-sm-4 col-lg-3">
+		<div class="col-sm-4 col-lg-3 col-xs-12">
 			<span>29</span>
 			<br>единиц спецтехники</div>
-		<div class="col-sm-4 col-lg-3">
+		<div class="col-sm-4 col-lg-3 col-xs-12">
 			<span>150</span>
 			<br>сотрудников</div>
 	</div>

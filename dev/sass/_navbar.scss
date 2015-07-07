@@ -26,6 +26,7 @@ nav {
                 				a {
                 					color: $nav-drodown-link-color;
                 					padding: 10px;
+                                    @include transition(background-color .5s .1s, color 1s);
                 				&:hover {
                 					color: $nav-drodown-link-color-hover
                 				}
