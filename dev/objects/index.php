@@ -17,8 +17,8 @@ include($root."/blocks/header.php");
     <div id="images" class="center-block">
 <?php foreach($bd as $row) { ?>
 				<div id="a" class="col-md-3 col-sm-6 col-xs-12" style="padding:0;">
-				    <img height="292px" src="img/objects/<?php echo $row['img'];?>" alt="car1"/>
-					<a class="fancybox-thumb" rel="gallery1" href="img/objects/<?php echo $row['img'];?>" title="<?php echo $row['alt'];?>"><span><?php echo $row['text1'].'</br>'.$row['text2'].'</br>'.$row['text3'];?></span></a>
+				    <img height="292px" src="<?php echo HTTP_SERVER;?>img/objects/<?php echo $row['img'];?>" alt="car1"/>
+					<a class="fancybox-thumb" rel="gallery1" href="<?php echo HTTP_SERVER;?>img/objects/<?php echo $row['img'];?>" title="<?php echo $row['alt'];?>"><span><?php echo $row['text1'].'</br>'.$row['text2'].'</br>'.$row['text3'];?></span></a>
 				</div>
 <?php } ?>			
 			</div>

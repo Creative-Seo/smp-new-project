@@ -20,7 +20,10 @@ include($root."/blocks/header.php");?>
 			</table>
 <?php } ?>
 		<div class="row">
-			<div class="col-md-7"><big>Цена за час работы:<nobr><strong style="color:red; font-size:1.5em"> <?php echo $array['cost'];?> руб.</strong></nobr></big></div>
+			<div class="col-md-7"><big>Цена за час работы:<nobr>
+<?php if($array['cost']=='договорная') { ?><strong style="font-size:1.3em"> договорная</strong></nobr>
+<?php } else { ?><strong style="color:red; font-size:1.5em"> <?php echo $array['cost'];?> руб.</strong></nobr><?php } ?>
+			</big></div>
 			<div class="col-md-5"><button class="btn btn-danger open-modal">Заказать аренду</button></div>
 		</div>
 		</div>	

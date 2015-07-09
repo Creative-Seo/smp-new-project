@@ -1,10 +1,9 @@
 <?php $title = 'Контакты - СМП 245'; ?>
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
-<?php
-include("../blocks/meta.php");
-include("../blocks/header.php"); 
-?>
+<?php $root = $_SERVER['DOCUMENT_ROOT'];
+include($root."/blocks/meta.php");
+include($root."/blocks/header.php"); ?>
 
 <article>
 <div class="container">
@@ -136,4 +135,4 @@ include("../blocks/header.php");
    </div><!-- row -->
 </div><!-- container -->
 </article>
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."/blocks/footer.php"); ?>

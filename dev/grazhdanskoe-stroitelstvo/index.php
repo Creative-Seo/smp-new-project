@@ -2,8 +2,9 @@
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
 <?php 
-include("../blocks/meta.php");
-include("../blocks/header.php"); 
+$root = $_SERVER['DOCUMENT_ROOT'];
+include($root."/blocks/meta.php");
+include($root."/blocks/header.php"); 
 ?>
 <article>
 <div class="container">
@@ -33,10 +34,10 @@ include("../blocks/header.php");
 	</ul>
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-	<img src="img/vokzal.jpg" alt="" class="img-responsive">
+	<img src="<?php echo HTTP_SERVER;?>img/vokzal.jpg" alt="" class="img-responsive">
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-	<img src="img/dom.jpg" alt="" class="img-responsive">
+	<img src="<?php echo HTTP_SERVER;?>img/dom.jpg" alt="" class="img-responsive">
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
 	<p>ЗАО ”СМП-245-Трансстрой” имеет опыт генподрядных работ по строительству зданий и сооружений различного назначения:</p>
@@ -57,23 +58,23 @@ include("../blocks/header.php");
 <div class="container">
    <div class="row">
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-    <img src="img/14.jpg" alt="" class="img-responsive">
+    <img src="<?php echo HTTP_SERVER;?>img/14.jpg" alt="" class="img-responsive">
     <p>Учебный корпус университета, г. Владимир, ул. Студенческая, 8</p>
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-    <img src="img/12.jpg" alt="" class="img-responsive">
+    <img src="<?php echo HTTP_SERVER;?>img/12.jpg" alt="" class="img-responsive">
     <p>"Русь-Отель", г.Владимир, ул. Гагарина, 14</p>
 </div>     
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-    <img src="img/dom2.jpg" alt="" class="img-responsive"> 
+    <img src="<?php echo HTTP_SERVER;?>img/dom2.jpg" alt="" class="img-responsive"> 
     <p>Многоквартирный жилой дом по ул. Балакирева</p>
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-    <img src="img/dom3.jpg" alt="" class="img-responsive">
+    <img src="<?php echo HTTP_SERVER;?>img/dom3.jpg" alt="" class="img-responsive">
     <p>Многоквартирный жилой дом по ул. Ново-Ямская</p>
 </div>
 
    </div><!-- row -->
 </div><!-- container -->
 </article>
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."/blocks/footer.php"); ?>

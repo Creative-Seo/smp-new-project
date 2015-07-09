@@ -2,8 +2,9 @@
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
 <?php 
-include("../blocks/meta.php");
-include("../blocks/header.php"); 
+$root = $_SERVER['DOCUMENT_ROOT'];
+include($root."/blocks/meta.php");
+include($root."/blocks/header.php"); 
 ?>
 
 <article>
@@ -16,7 +17,7 @@ include("../blocks/header.php");
     <p>Мы выполняем весь комплекс работ по строительству промышленных объектов под ключ. Один из главных принципов нашей работы – индивидуальный подход к каждому клиенту. Помимо работ по строительству промышленных объектов , логистических центров, складских, производственных, административных и офисных зданий мы предложим вам ремонтные работы, реконструкцию, доработку и переделку, отделку помещений, благоустройство территории, проектирование и установку инженерных сетей.</p>
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-	<img src="img/15.jpg" alt="" class="img-responsive">
+	<img src="<?php echo HTTP_SERVER;?>img/15.jpg" alt="" class="img-responsive">
 </div>
 <p>Работать с компанией ЗАО ”СМП-245-Трансстрой” удобно и выгодно, мы экономим ваше время и деньги,  выполняем заказы с учетом всех пожеланий и требований клиента, предоставляем профессиональные консультации по всем интересующим вас вопросам, составляем детальную смету  работ по строительству, предложим различные варианты отделки и дизайна, проинформируем об особенностях тех или иных материалов, сообщим актуальные сроки выполнения заказа.</p>
    </div><!-- row -->
@@ -24,13 +25,13 @@ include("../blocks/header.php");
 <div class="container">
    <div class="row">
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-    <img src="img/16.jpg" alt="" class="img-responsive"> 
+    <img src="<?php echo HTTP_SERVER;?>img/16.jpg" alt="" class="img-responsive"> 
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-    <img src="img/17.jpg" alt="" class="img-responsive">
+    <img src="<?php echo HTTP_SERVER;?>img/17.jpg" alt="" class="img-responsive">
 </div>
 
    </div><!-- row -->
 </div><!-- container -->
 </article>
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."/blocks/footer.php"); ?>

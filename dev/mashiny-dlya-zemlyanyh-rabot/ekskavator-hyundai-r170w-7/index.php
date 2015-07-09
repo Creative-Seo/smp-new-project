@@ -1,7 +1,7 @@
 <?php $title = 'Экскаватор HYUNDAI R170W-7'; ?>
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
-<?php $breadcrumbs = 'Экскаватор HYUNDAI R170W-7'; ?>
+<?php $breadcrumb = 'Экскаватор HYUNDAI R170W-7'; ?>
 <?php $array = json_decode('{"name":"HYUNDAI R170W-7","cost":"1630",
 "table":[{"name":"Технические характеристики HYUNDAI R170W-7","tb":[
 ["Вес","16 200 кг"],["Двигатель","Mitsubishi S6S-DT, 126 л.с.; ковш – 0,76 (0,39–1,05) м3"],["Формула колес","4x4"],["Стрела","5 100 мм"],["Рукоять","2 200 мм"],["Глубина копания","5 420 мм"]]}],

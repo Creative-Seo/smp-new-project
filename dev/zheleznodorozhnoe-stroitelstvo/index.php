@@ -2,9 +2,9 @@
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
 <?php 
-
-include("../blocks/meta.php");
-include("../blocks/header.php"); 
+$root = $_SERVER['DOCUMENT_ROOT'];
+include($root."/blocks/meta.php");
+include($root."/blocks/header.php"); 
 ?>
 
 <article>
@@ -59,19 +59,19 @@ include("../blocks/header.php");
           </ul>
           
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-	         <img src="img/18.jpg" alt="" class="img-responsive center-block">
+	         <img src="<?php echo HTTP_SERVER;?>img/18.jpg" alt="" class="img-responsive center-block">
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-	         <img src="img/19.jpg" alt="" class="img-responsive center-block">
+	         <img src="<?php echo HTTP_SERVER;?>img/19.jpg" alt="" class="img-responsive center-block">
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-	         <img src="img/20.jpg" alt="" class="img-responsive center-block">
+	         <img src="<?php echo HTTP_SERVER;?>img/20.jpg" alt="" class="img-responsive center-block">
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-	         <img src="img/21.jpg" alt="" class="img-responsive center-block">
+	         <img src="<?php echo HTTP_SERVER;?>img/21.jpg" alt="" class="img-responsive center-block">
           </div>
 
    </div><!-- row -->
 </div><!-- container -->
 </article>
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."/blocks/footer.php"); ?>
