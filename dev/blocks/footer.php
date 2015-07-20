@@ -33,7 +33,7 @@
 	</div>
 	<div class="footer-bottom row">
 	    <span>© 2013-2015 ЗАО «СМП-245-ТРАНССТРОЙ»</span>
-	  
+	    <div class="pull-right"><!-- Yandex.Metrika informer --><a href="https://metrika.yandex.ru/stat/?id=30537562&amp;from=informer" target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/30537562/3_1_FFFFFFFF_EFEFEFFF_0_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:30537562,lang:'ru'});return false}catch(e){}"/></a><!-- /Yandex.Metrika informer --><!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter30537562 = new Ya.Metrika({id:30537562, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/30537562" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
 	</div>
 	</div>
 	
@@ -56,15 +56,15 @@
 /build -->
 
 <!-- build:remove -->
-<script src="libs/jquery/dist/jquery.min.js"></script>
-<script src="libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
-<script src="js/jquery.fancybox.js"></script>
-<script src="js/helpers/jquery.fancybox-thumbs.js"></script> 
-<script src="js/jquery.mousewheel-3.0.6.pack.js"></script>
-<script src="js/jquery.maskedinput.min.js"></script> 
-<script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
-<script src="js/jquery.bxslider.min.js"></script>
-<script src="js/common.js"></script>
+<script src="<?php echo HTTP_SERVER;?>libs/jquery/dist/jquery.min.js"></script>
+<script src="<?php echo HTTP_SERVER;?>libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+<script src="<?php echo HTTP_SERVER;?>js/jquery.fancybox.js"></script>
+<script src="<?php echo HTTP_SERVER;?>js/helpers/jquery.fancybox-thumbs.js"></script> 
+<script src="<?php echo HTTP_SERVER;?>js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script src="<?php echo HTTP_SERVER;?>js/jquery.maskedinput.min.js"></script> 
+<script src="<?php echo HTTP_SERVER;?>js/jquery.carouFredSel-6.1.0-packed.js"></script>
+<script src="<?php echo HTTP_SERVER;?>js/jquery.bxslider.min.js"></script>
+<script src="<?php echo HTTP_SERVER;?>js/common.js"></script>
 <!-- /build -->
 
 

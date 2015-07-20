@@ -1,8 +1,9 @@
 <?php $title = 'СМП-245 - строительная компания'; ?>
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
-<?php include("blocks/meta.php"); ?>
-<?php include("blocks/header.php"); ?>
+<?php $root = $_SERVER['DOCUMENT_ROOT'];
+include($root."/blocks/meta.php");
+include($root."/blocks/header.php"); ?>
 
 <section id="pixroll">
 	<div class="pixroll-wrapper">
@@ -219,4 +220,4 @@
 	</div>
 </div>
 
-<?php include("blocks/footer.php"); ?>
+<?php include($root."/footer.php"); ?>

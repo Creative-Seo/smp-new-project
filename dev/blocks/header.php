@@ -1,4 +1,4 @@
-<?php require dirname(__FILE__)."/modal-zakaz.php"; ?> 
+<?php include($root."/modal-zakaz.php"); ?> 
 <header> 
   <div class="container">
     <div class="row">
@@ -19,4 +19,4 @@
 </header> 
 <!--navbar-->
 
-<?php require dirname(__FILE__)."/navbar.php"; ?>
+<?php include($root."/navbar.php"); ?>
