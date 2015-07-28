@@ -1,4 +1,4 @@
-<?php include($root."/modal-zakaz.php"); ?> 
+<?php include($root."/blocks/modal-zakaz.php"); ?>
 <header> 
   <div class="container">
     <div class="row">
@@ -19,4 +19,4 @@
 </header> 
 <!--navbar-->
 
-<?php include($root."/navbar.php"); ?>
+<?php include($root."/blocks/navbar.php"); ?>

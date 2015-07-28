@@ -1,11 +1,11 @@
 <?php 
-$breadcrumbs_url = 'arenda-spectehniki';
+$breadcrumb_url = 'arenda-spectehniki';
 include($root."/blocks/meta.php");
 include($root."/blocks/header.php");?>
 
 <article class="container">
 <?php include($root."/blocks/breadcrumbs.php"); ?>
-	<h1 class="h1"><?php echo $breadcrumbs;?></h1>
+	<h1 class="h1"><?php echo $breadcrumb;?></h1>
 	<div class="row">
 		<div class="col-md-6"><img class="img-responsive" src="<?php echo HTTP_URL;?>glav.jpg" alt="<?php echo $title;?>"></div>
 		<div class="col-md-6">
