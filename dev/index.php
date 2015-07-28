@@ -112,7 +112,7 @@ include($root."/blocks/header.php"); ?>
   <div class="row">
    <h2 class="h2">Построенные объекты</h2>
 	<div id="images">
-				<div id="a" class="col-md-3 col-sm-6 col-xs-12">
+				<div class="col-md-3 col-sm-6 col-xs-12">
 				    <img src="img/27.jpg" alt="car1" class="img-responsive" />
 					<a class="fancybox-thumb" rel="gallery1" href="img/27.jpg" title="Возведение платины №2, №3 г.Goodwill, Ковровский район"><span>Гидросооружения. Возведение платины №2, №3 г.Goodwill, Ковровский район</span></a>
 				</div>

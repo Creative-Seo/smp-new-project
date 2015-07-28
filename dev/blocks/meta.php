@@ -21,9 +21,9 @@
     <!-- build:remove -->
     <link rel="stylesheet" href="<?php echo HTTP_SERVER;?>css/jquery.fancybox.css">
     <link rel="stylesheet" href="<?php echo HTTP_SERVER;?>css/jquery.bxslider.css" />
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,cyrillic' type='text/css'>
     <link rel="stylesheet" href="<?php echo HTTP_SERVER;?>libs/font-awesome/css/font-awesome.css" />
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo HTTP_SERVER;?>css/style.css">
     <!-- /build -->
 	
 <script>

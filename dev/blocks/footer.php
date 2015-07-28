@@ -40,7 +40,7 @@
 <a href="#0" class="cd-top">Top</a>
 
 </footer>
-
+<?php include($root."/blocks/modal-zakaz.php"); ?>
 <!-- build:template
    <script>
     var ms=document.createElement("link");ms.rel="stylesheet";

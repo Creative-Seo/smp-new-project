@@ -16,13 +16,13 @@
         <li class="form-line">
           <label class="form-label-top"> ФИО<span class="form-required">*</span> </label>
           <div class="form-input-wide">
-            <input type="text" class="form-textbox" id="name" size="40" placeholder="Ваше имя" required="required">
+            <input type="text" class="form-textbox" id="name" placeholder="Ваше имя" required="required">
           </div>
         </li>
         <li class="form-line">
           <label class="form-label-top"> Телефон<span class="form-required">*</span> </label>
           <div class="form-input-wide">
-            <input type="text" class="form-textbox" size="40" id="tel" placeholder="+7 (___) ___-___" required="required">
+            <input type="text" class="form-textbox" id="tel" placeholder="+7 (___) ___-___" required="required">
           </div>
         </li>
       </ul>

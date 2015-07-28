@@ -9,15 +9,15 @@ include($root."/blocks/header.php");
 ?>
 
 <article>
-<div class="container objects">
-   <div class="">
+<div class="container">
+   <div class="row">
       <h1 class="h1">Перечень объектов</h1>
 
    
-    <div id="images" class="center-block">
+    <div id="images">
 <?php foreach($bd as $row) { ?>
-				<div id="a" class="col-md-3 col-sm-6 col-xs-12" style="padding:0;">
-				    <img height="292px" src="<?php echo HTTP_SERVER;?>img/objects/<?php echo $row['img'];?>" alt="car1"/>
+				<div id="a" class="col-md-3 col-sm-6 col-xs-12">
+				    <img height="292px" src="<?php echo HTTP_SERVER;?>img/objects/<?php echo $row['img'];?>" alt="Объекты строительства"/>
 					<a class="fancybox-thumb" rel="gallery1" href="<?php echo HTTP_SERVER;?>img/objects/<?php echo $row['img'];?>" title="<?php echo $row['alt'];?>"><span><?php echo $row['text1'].'</br>'.$row['text2'].'</br>'.$row['text3'];?></span></a>
 				</div>
 <?php } ?>			

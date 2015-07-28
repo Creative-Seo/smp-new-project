@@ -16,15 +16,9 @@ button {
 	font-weight: 700;
 	text-transform: uppercase;
 }
-
-.text {
-    font-weight: 400;
-    text-indent: 20px;
-    line-height: 1.8em;
-}
-
+.text {font-weight: 400;text-indent: 20px;line-height: 1.8em;}
 ul li {list-style-type: none;}
-   
+.h1 {font-weight: 300;margin: 15px 0 15px 20px;}
 .numbers {
 	@include gradient-horizontal(#050a10, #0d1e32, 0%, 67%);
 	color: #fff;
@@ -92,4 +86,83 @@ ul li {list-style-type: none;}
 			float: left;
 		}
     }
+}
+#modal-zakaz {
+	.modal-header {
+		background: #21476B;
+		color: #FFF;
+		border-radius: 4px 4px 0 0;
+	}
+	h4, label {font-weight: 300;}
+	label {font-weight: 400;}
+	.jotform-form {width: 100%;}
+	ul {padding:0;}
+	.close {
+		color: #fff;
+		opacity: 0.5;
+		padding: 5px;
+	}
+	.modal-otpr {
+		text-align: center;
+		background-color: #ccc;
+		border-radius: 0 0 4px 4px;
+	}
+	.modal-otpr a {
+		color: #222;
+		text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+		font-size: 18px;
+	}
+}
+.contact-form {
+	label {
+		color: #b7b7b7;
+		display: block;
+		margin-bottom: 7px;
+		padding-left: 10px;
+	}
+	li {list-style: outside none none;}
+	input[type="text"], input[type="email"], textarea, select {
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		height: 40px;
+		outline: medium none;
+		padding: 0 7px;
+		width: 100% !important;
+		&:hover, &:focus {border-color: #124994;box-shadow: 0 0 5px #124994;}
+	}
+	textarea {height: 120px;resize: none;}
+	button {
+		background: #124994 none repeat scroll 0 0;
+		border: medium none;
+		border-radius: 10px;
+		color: #fff;
+		display: inline-block;
+		font-size: 18px;
+		height: 60px;
+		outline: 0 none;
+		width: 100%;
+		&:hover, &:focus {opacity: 0.9;text-shadow: 0 0 8px white;}
+	}
+}
+.form-line {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 13px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.cont-tel {font-size: 22px;padding: 5px;}
+.cont .cont2 {margin-top: 10px;}
+.rekv {padding-left: 5px;}
+.cont i {margin-right: 5px;vertical-align: middle;}
+.jotform-form {width: 80%;}
+.tcboard {border-top: 1px solid #cbcbcb;margin-bottom: -18px;}
+.tc {margin-top: 30px;text-align: center;}
+.likeh2 {font-size: 24px;padding-bottom: 20px;}
+.besplcons {
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
 }

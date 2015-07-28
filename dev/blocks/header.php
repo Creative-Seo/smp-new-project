@@ -1,4 +1,3 @@
-<?php include($root."/blocks/modal-zakaz.php"); ?>
 <header> 
   <div class="container">
     <div class="row">
