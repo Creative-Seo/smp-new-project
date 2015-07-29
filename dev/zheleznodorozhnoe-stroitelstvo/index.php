@@ -59,16 +59,16 @@ include($root."/blocks/header.php");
           </ul>
           
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-	         <img src="<?php echo HTTP_SERVER;?>img/18.jpg" alt="" class="img-responsive center-block">
+	         <img src="/img/18.jpg" alt="" class="img-responsive center-block">
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-	         <img src="<?php echo HTTP_SERVER;?>img/19.jpg" alt="" class="img-responsive center-block">
+	         <img src="/img/19.jpg" alt="" class="img-responsive center-block">
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-	         <img src="<?php echo HTTP_SERVER;?>img/20.jpg" alt="" class="img-responsive center-block">
+	         <img src="/img/20.jpg" alt="" class="img-responsive center-block">
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-	         <img src="<?php echo HTTP_SERVER;?>img/21.jpg" alt="" class="img-responsive center-block">
+	         <img src="/img/21.jpg" alt="" class="img-responsive center-block">
           </div>
 
    </div><!-- row -->

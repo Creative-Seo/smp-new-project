@@ -14,20 +14,20 @@
 		<div class="col-md-4">
 		  
 			<ul>
-				<li><a href="<?php echo HTTP_SERVER;?>grazhdanskoe-stroitelstvo/">Гражданское строительство</a></li>
-				<li><a href="<?php echo HTTP_SERVER;?>promyshlennoe-stroitelstvo/">Промышленное строительство</a></li>
-				<li><a href="<?php echo HTTP_SERVER;?>zheleznodorozhnoe-stroitelstvo/">Железнодорожное строительство</a></li>
-				<li><a href="<?php echo HTTP_SERVER;?>zabivka-svay/">Сваебойные работы</a></li>
+				<li><a href="/grazhdanskoe-stroitelstvo/">Гражданское строительство</a></li>
+				<li><a href="/promyshlennoe-stroitelstvo/">Промышленное строительство</a></li>
+				<li><a href="/zheleznodorozhnoe-stroitelstvo/">Железнодорожное строительство</a></li>
+				<li><a href="/zabivka-svay/">Сваебойные работы</a></li>
 			</ul>
 		</div>
 		<div class="col-md-4">
 		    
 			<ul>
-			    <li><a href="<?php echo HTTP_SERVER;?>arenda-spectehniki/">Аренда спецтехники</a></li>
-				<li><a href="<?php echo HTTP_SERVER;?>licenses/">Лицензии</a></li>
-				<li><a href="<?php echo HTTP_SERVER;?>objects/">Объекты</a></li>
+			    <li><a href="/arenda-spectehniki/">Аренда спецтехники</a></li>
+				<li><a href="/licenses/">Лицензии</a></li>
+				<li><a href="/objects/">Объекты</a></li>
 				<li><a href="http://xn--h1alcg0a.xn--p1ai/" rel="nofollow" target="_blank">Проектные работы</a></li>
-				<li><a href="<?php echo HTTP_SERVER;?>contacts/">Контакты</a></li>
+				<li><a href="/contacts/">Контакты</a></li>
 			</ul>
 		</div>	
 	</div>
@@ -47,24 +47,24 @@
 	ms.href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,cyrillic";document.getElementsByTagName("head")[0].appendChild(ms);
 
 	var ms=document.createElement("link");ms.rel="stylesheet";
-	ms.href="css/style.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
+	ms.href="/css/style.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
 
 	var ms=document.createElement("link");ms.rel="stylesheet";
-	ms.href="libs/font-awesome/css/font-awesome.css";document.getElementsByTagName("head")[0].appendChild(ms);
+	ms.href="/libs/font-awesome/css/font-awesome.css";document.getElementsByTagName("head")[0].appendChild(ms);
 	
     </script>
 /build -->
 
 <!-- build:remove -->
-<script src="<?php echo HTTP_SERVER;?>libs/jquery/dist/jquery.min.js"></script>
-<script src="<?php echo HTTP_SERVER;?>libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
-<script src="<?php echo HTTP_SERVER;?>js/jquery.fancybox.js"></script>
-<script src="<?php echo HTTP_SERVER;?>js/helpers/jquery.fancybox-thumbs.js"></script> 
-<script src="<?php echo HTTP_SERVER;?>js/jquery.mousewheel-3.0.6.pack.js"></script>
-<script src="<?php echo HTTP_SERVER;?>js/jquery.maskedinput.min.js"></script> 
-<script src="<?php echo HTTP_SERVER;?>js/jquery.carouFredSel-6.1.0-packed.js"></script>
-<script src="<?php echo HTTP_SERVER;?>js/jquery.bxslider.min.js"></script>
-<script src="<?php echo HTTP_SERVER;?>js/common.js"></script>
+<script src="/libs/jquery/dist/jquery.min.js"></script>
+<script src="/libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+<script src="/js/jquery.fancybox.js"></script>
+<script src="/js/helpers/jquery.fancybox-thumbs.js"></script> 
+<script src="/js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script src="/js/jquery.maskedinput.min.js"></script> 
+<script src="/js/jquery.carouFredSel-6.1.0-packed.js"></script>
+<script src="/js/jquery.bxslider.min.js"></script>
+<script src="/js/common.js"></script>
 <!-- /build -->
 
 
@@ -73,7 +73,7 @@
 <script>
 var scr = {"scripts":[
 	
-	{"src" : "js/scripts.min.js", "async" : false}
+	{"src" : "/js/scripts.min.js", "async" : false}
 	]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
 </script>
 
@@ -81,7 +81,7 @@ var scr = {"scripts":[
 
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!--<script src="js/bootstrap.min.js"></script>-->
+    <!--<script src="/js/bootstrap.min.js"></script>-->
        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>

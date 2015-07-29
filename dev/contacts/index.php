@@ -78,7 +78,7 @@ include($root."/blocks/header.php"); ?>
 </div>
 <div class="contact-form">
       <form class="jotform-form center-block" accept-charset="utf-8">
-        <input type="hidden"  />
+        <input type="hidden"/>
         <div class="form-all">
           <ul class="form-section">
             <li class="form-line">

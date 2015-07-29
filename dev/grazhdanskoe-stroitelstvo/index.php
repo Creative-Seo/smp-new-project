@@ -34,10 +34,10 @@ include($root."/blocks/header.php");
 	</ul>
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-	<img src="<?php echo HTTP_SERVER;?>img/vokzal.jpg" alt="" class="img-responsive">
+	<img src="/img/vokzal.jpg" alt="" class="img-responsive">
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-	<img src="<?php echo HTTP_SERVER;?>img/dom.jpg" alt="" class="img-responsive">
+	<img src="/img/dom.jpg" alt="" class="img-responsive">
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
 	<p>ЗАО ”СМП-245-Трансстрой” имеет опыт генподрядных работ по строительству зданий и сооружений различного назначения:</p>
@@ -58,19 +58,19 @@ include($root."/blocks/header.php");
 <div class="container">
    <div class="row">
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-    <img src="<?php echo HTTP_SERVER;?>img/14.jpg" alt="" class="img-responsive">
+    <img src="/img/14.jpg" alt="" class="img-responsive">
     <p>Учебный корпус университета, г. Владимир, ул. Студенческая, 8</p>
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-    <img src="<?php echo HTTP_SERVER;?>img/12.jpg" alt="" class="img-responsive">
+    <img src="/img/12.jpg" alt="" class="img-responsive">
     <p>"Русь-Отель", г.Владимир, ул. Гагарина, 14</p>
 </div>     
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-    <img src="<?php echo HTTP_SERVER;?>img/dom2.jpg" alt="" class="img-responsive"> 
+    <img src="/img/dom2.jpg" alt="" class="img-responsive"> 
     <p>Многоквартирный жилой дом по ул. Балакирева</p>
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-block">
-    <img src="<?php echo HTTP_SERVER;?>img/dom3.jpg" alt="" class="img-responsive">
+    <img src="/img/dom3.jpg" alt="" class="img-responsive">
     <p>Многоквартирный жилой дом по ул. Ново-Ямская</p>
 </div>
 

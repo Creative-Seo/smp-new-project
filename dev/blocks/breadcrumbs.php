@@ -18,7 +18,7 @@ if(isset($breadcrumb3))
 }
 ?>      
         <span class="active" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-			<a href="<?php echo HTTP_URL;?>" itemprop="url">
+			<a href="./" itemprop="url">
 			<span itemprop="title"><?php echo $breadcrumb;?></span></a>
 		</span>
       </div>

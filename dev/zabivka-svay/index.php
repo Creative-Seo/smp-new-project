@@ -11,7 +11,7 @@ include($root."/blocks/header.php");
 <div class="container">
    <div class="row">
        <h1 class="h1">Сваебойные работы</h1>
-       <img src="<?php echo HTTP_SERVER;?>img/22.jpg" alt="" class="img-responsive pull-right clearfix" style="margin-left:7px;" width="240"> 
+       <img src="/img/22.jpg" alt="" class="img-responsive pull-right clearfix" style="margin-left:7px;" width="240"> 
        <p>Компания ЗАО"СМП-245-Трансстрой выполняет строительные свайные работы во Владимире и области, любой сложности, имея в распоряжении свайный копер СП-49Д с гидромолотом МГ3ш.</p>
        <p>Сотрудничая с нашей компанией, Вы в обязательном порядке получите своевременное и качественное выполнение всех сваебойных работ (погружение свай и шпунта, сваебойные работы высокой сложности, высокотехнологичная забивка свай, устройство свайного фундамента).</p>
        <p>Копровая установка-сваебой СП-49Д с гидромолотом Ропат МГ3ш представляет собой мобильную установку на гусеничной базе с мачтой для подъема свай. Копер поднимает сваю, подтаскивает её к точке забивки и устанавливает в проектное положение. После этого свая погружается в грунт с помощью гидравлического молота Ропат МГ3ш.</p>
@@ -65,13 +65,13 @@ include($root."/blocks/header.php");
         </div>
 
     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-block">
-	    <img src="<?php echo HTTP_SERVER;?>img/23.jpg" alt="" class="img-responsive center-block">
+	    <img src="/img/23.jpg" alt="" class="img-responsive center-block">
     </div>  
     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-block">
-	    <img src="<?php echo HTTP_SERVER;?>img/24.jpg" alt="" class="img-responsive center-block">
+	    <img src="/img/24.jpg" alt="" class="img-responsive center-block">
     </div>
     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-block">
-	    <img src="<?php echo HTTP_SERVER;?>img/25.jpg" alt="" class="img-responsive center-block">
+	    <img src="/img/25.jpg" alt="" class="img-responsive center-block">
     </div>   
 
    </div><!-- row -->

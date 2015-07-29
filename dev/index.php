@@ -8,9 +8,9 @@ include($root."/blocks/header.php"); ?>
 <section id="pixroll">
 	<div class="pixroll-wrapper">
 		<ul class="pixroll-images">
-			<li><div><img src="img/slide1.jpg" alt=""></div></li>
-			<li><div><img src="img/slide2.jpg" alt=""></div></li>
-			<li><div><img src="img/slide3.jpg" alt=""></div></li>
+			<li><div><img src="/img/slide1.jpg" alt=""></div></li>
+			<li><div><img src="/img/slide2.jpg" alt=""></div></li>
+			<li><div><img src="/img/slide3.jpg" alt=""></div></li>
 		</ul>
 		<div class="fader fader-left"></div>
 		<div class="fader fader-right"></div>
@@ -65,41 +65,41 @@ include($root."/blocks/header.php"); ?>
   <div class="grid">
    <div class="col-md-3 slide-setka">
 	<figure class="effect-sadie">
-						<img src="img/1.jpg" alt="img02" class="img-responsive"/>
+						<img src="/img/1.jpg" alt="img02" class="img-responsive"/>
 						<figcaption>
 							<h2>Аренда спецтехники</h2>
 							
-							<a href="arenda-spectehniki/">View more</a>
+							<a href="/arenda-spectehniki/">View more</a>
 						</figcaption>			
 	</figure>
    </div>	
    <div class="col-md-3 slide-setka">
 	<figure class="effect-sadie">
-						<img src="img/3.jpg" alt="img02" class="img-responsive" />
+						<img src="/img/3.jpg" alt="img02" class="img-responsive" />
 						<figcaption>
 							<h2>Сваебойные работы</h2>
 							
-							<a href="zabivka-svay/#">View more</a>
+							<a href="/zabivka-svay/#">View more</a>
 						</figcaption>			
 	</figure> 
 	</div>
    <div class="col-md-3 slide-setka">
 	<figure class="effect-sadie">
-						<img src="img/4.jpg" alt="img02" class="img-responsive" />
+						<img src="/img/4.jpg" alt="img02" class="img-responsive" />
 						<figcaption>
 							<h2>Гражданское строительство</h2>
 							
-							<a href="grazhdanskoe-stroitelstvo/">View more</a>
+							<a href="/grazhdanskoe-stroitelstvo/">View more</a>
 						</figcaption>			
 	</figure>
    </div>	
    <div class="col-md-3 slide-setka">
 	<figure class="effect-sadie">
-						<img src="img/5.jpg" alt="img02" class="img-responsive" />
+						<img src="/img/5.jpg" alt="img02" class="img-responsive" />
 						<figcaption>
 							<h2>Промышленное строительство</h2>
 							
-							<a href="promyshlennoe-stroitelstvo/">View more</a>
+							<a href="/promyshlennoe-stroitelstvo/">View more</a>
 						</figcaption>			
 	</figure> 
 	</div>
@@ -113,20 +113,20 @@ include($root."/blocks/header.php"); ?>
    <h2 class="h2">Построенные объекты</h2>
 	<div id="images">
 				<div class="col-md-3 col-sm-6 col-xs-12">
-				    <img src="img/27.jpg" alt="car1" class="img-responsive" />
-					<a class="fancybox-thumb" rel="gallery1" href="img/27.jpg" title="Возведение платины №2, №3 г.Goodwill, Ковровский район"><span>Гидросооружения. Возведение платины №2, №3 г.Goodwill, Ковровский район</span></a>
+				    <img src="/img/27.jpg" alt="car1" class="img-responsive" />
+					<a class="fancybox-thumb" rel="gallery1" href="/img/27.jpg" title="Возведение платины №2, №3 г.Goodwill, Ковровский район"><span>Гидросооружения. Возведение платины №2, №3 г.Goodwill, Ковровский район</span></a>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12">
-					<img src="img/28.jpg" alt="car2" class="img-responsive" />
-					<a class="fancybox-thumb" rel="gallery1" href="img/28.jpg" title="Строительство мостового перехода через р.Ока с обходом г.Муром (II очередь)"><span>Строительство мостового перехода через р.Ока с обходом г.Муром (IIочередь)</span></a>
+					<img src="/img/28.jpg" alt="car2" class="img-responsive" />
+					<a class="fancybox-thumb" rel="gallery1" href="/img/28.jpg" title="Строительство мостового перехода через р.Ока с обходом г.Муром (II очередь)"><span>Строительство мостового перехода через р.Ока с обходом г.Муром (IIочередь)</span></a>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12">
-					<img src="img/29.jpg" alt="car5" class="img-responsive" />
-					<a class="fancybox-thumb" rel="gallery1" href="img/29.jpg" title="Автоцентр "Рено", г.Ковров"><span>Строительство автоцентра "Рено", г.Ковров. Выполнен комплекс общестроительных работ: монтаж несущих конструкций, ограждающих стеновых конструкций, кровля на основе мембранной пленки.</span></a>
+					<img src="/img/29.jpg" alt="car5" class="img-responsive" />
+					<a class="fancybox-thumb" rel="gallery1" href="/img/29.jpg" title="Автоцентр "Рено", г.Ковров"><span>Строительство автоцентра "Рено", г.Ковров. Выполнен комплекс общестроительных работ: монтаж несущих конструкций, ограждающих стеновых конструкций, кровля на основе мембранной пленки.</span></a>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12">
-					<img src="img/30.jpg" alt="car6" class="img-responsive" />
-					<a class="fancybox-thumb" rel="gallery1" href="img/30.jpg" title="Нежилое строение ООО «Аскона»"><span>Нежилое строение «Производство полиэтиленовой пленки и синтепона», ООО «Аскона», г. Ковров, Владимирская область. Выполнен полный комплекс строительных работ: фундамент, каркас, кровля, промышленные топинговые полы.</span></a>
+					<img src="/img/30.jpg" alt="car6" class="img-responsive" />
+					<a class="fancybox-thumb" rel="gallery1" href="/img/30.jpg" title="Нежилое строение ООО «Аскона»"><span>Нежилое строение «Производство полиэтиленовой пленки и синтепона», ООО «Аскона», г. Ковров, Владимирская область. Выполнен полный комплекс строительных работ: фундамент, каркас, кровля, промышленные топинговые полы.</span></a>
 				</div>
 	</div>
   </div>

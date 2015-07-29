@@ -166,3 +166,20 @@ ul li {list-style-type: none;}
     padding-left: 20px;
     padding-right: 20px;
 }
+input[type="submit"], .btn {
+    background: none repeat scroll 0 0 #21476B;
+    border: 0 none;
+    border-radius: 0;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    height: 46px;
+    line-height: 46px;
+    min-width: 178px;
+    outline: 0 none;
+    padding: 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.intro {padding:5px;}

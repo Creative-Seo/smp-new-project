@@ -30,28 +30,28 @@
             </a>
             <ul class="dropdown-menu text-dropdown-menu" role="menu">
               <li>
-                <a href="<?php echo HTTP_SERVER;?>zabivka-svay/">Сваебойные работы</a>
+                <a href="/zabivka-svay/">Сваебойные работы</a>
               </li>
               <li>
-                <a href=<?php echo HTTP_SERVER;?>grazhdanskoe-stroitelstvo/">Гражданское строительство</a>
+                <a href="/grazhdanskoe-stroitelstvo/">Гражданское строительство</a>
               </li>
               <li>
-                <a href="<?php echo HTTP_SERVER;?>promyshlennoe-stroitelstvo/">Промышленное строительство</a>
+                <a href="/promyshlennoe-stroitelstvo/">Промышленное строительство</a>
               </li>
               <li>
-                <a href="<?php echo HTTP_SERVER;?>zheleznodorozhnoe-stroitelstvo/">Железнодорожное строительство
+                <a href="/zheleznodorozhnoe-stroitelstvo/">Железнодорожное строительство
                 </a>
               </li>
 
             </ul>
           </li>
           <li>
-            <a href="<?php echo $rootpath; ?>arenda-spectehniki/"><span>Аренда спецтехники</span>
+            <a href="/arenda-spectehniki/"><span>Аренда спецтехники</span>
             </a>
           </li>
 
           <li>
-            <a href="<?php echo HTTP_SERVER;?>objects/" id="one">
+            <a href="/objects/" id="one">
               <span>Объекты</span>
             </a>
           </li>
@@ -66,18 +66,18 @@
             </a>
             <ul class="dropdown-menu text-dropdown-menu" role="menu">
               <li>
-                <a href="<?php echo HTTP_SERVER;?>licenses/smp245/">СМП-245</a>
+                <a href="/licenses/smp245/">СМП-245</a>
               </li>
               <li>
-                <a href="<?php echo HTTP_SERVER;?>licenses/smp245-energy/">СМП-245 Энерго</a>
+                <a href="/licenses/smp245-energy/">СМП-245 Энерго</a>
               </li>
               <li>
-                <a href="<?php echo HTTP_SERVER;?>licenses/" target="_blank">ЦПОиР</a>
+                <a href="/licenses/" target="_blank">ЦПОиР</a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="<?php echo HTTP_SERVER;?>contacts/">
+            <a href="/contacts/">
               <span>Контакты</span>
             </a>
           </li>
