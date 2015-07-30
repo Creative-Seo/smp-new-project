@@ -136,8 +136,18 @@ critical: {
        
       }]
     }
-}
+},
 
+imagemin: {
+    dynamic: {
+      files: [{
+        expand: true,                  // Enable dynamic expansion
+        cwd: 'dev/',                   // Src matches are relative to this path
+        src: ['**/*.{png,jpg,gif,JPG}'],   // Actual patterns to match
+        dest: 'prod/'                  // Destination path prefix
+      }]
+    }
+  }
        
     });
  
@@ -157,9 +167,11 @@ critical: {
     grunt.loadNpmTasks('grunt-autoprefixer');
     grunt.loadNpmTasks('grunt-fixmyjs');
     grunt.loadNpmTasks('grunt-uncss');
+	grunt.loadNpmTasks('grunt-contrib-imagemin');
 
     
-    grunt.registerTask('all', ['csso', 'autoprefixer', 'uglify', 'copy', 'processhtml', 'htmlmin']);
+    grunt.registerTask('all', ['csso', 'autoprefixer', 'uglify', 'copy', 'processhtml', 'htmlmin', 'imagemin']);
+    grunt.registerTask('img', ['imagemin']);
     grunt.registerTask('default', ['uglify']);
 	  
 };
