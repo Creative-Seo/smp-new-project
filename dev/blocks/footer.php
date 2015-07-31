@@ -41,19 +41,6 @@
 
 </footer>
 <?php include($root."/blocks/modal-zakaz.php"); ?>
-<!-- build:template
-   <script>
-    var ms=document.createElement("link");ms.rel="stylesheet";
-	ms.href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,cyrillic";document.getElementsByTagName("head")[0].appendChild(ms);
-
-	var ms=document.createElement("link");ms.rel="stylesheet";
-	ms.href="/css/style.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
-
-	var ms=document.createElement("link");ms.rel="stylesheet";
-	ms.href="/libs/font-awesome/css/font-awesome.css";document.getElementsByTagName("head")[0].appendChild(ms);
-	
-    </script>
-/build -->
 
 <!-- build:remove -->
 <script src="/libs/jquery/dist/jquery.min.js"></script>
@@ -67,18 +54,22 @@
 <script src="/js/common.js"></script>
 <!-- /build -->
 
-
 <!-- build:template
+<script>
+var ms=document.createElement("link");ms.rel="stylesheet";
+ms.href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,cyrillic";document.getElementsByTagName("head")[0].appendChild(ms);
 
+var ms=document.createElement("link");ms.rel="stylesheet";
+ms.href="/css/style.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
+</script>
+	
 <script>
 var scr = {"scripts":[
-	
 	{"src" : "/js/scripts.min.js", "async" : false}
 	]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
 </script>
 
 /build -->
-
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!--<script src="/js/bootstrap.min.js"></script>-->
@@ -97,7 +88,6 @@ var scr = {"scripts":[
 
   ga('create', 'UA-63370383-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 
   </body>

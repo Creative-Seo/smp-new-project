@@ -8,7 +8,7 @@ grunt.initConfig({
 		  report: 'gzip'
 		},
 		files: {
-		  'prod/css/style.min.css': ['dev/css/style.css', 'dev/css/jquery.fancybox.css', 'dev/css/jquery.bxslider.css']
+		  'prod/css/style.min.css': ['dev/css/style.css', 'dev/css/jquery.fancybox.css', 'dev/css/jquery.bxslider.css', 'dev/libs/font-awesome/css/font-awesome.css']
 		}
 	  }
 	},
@@ -46,7 +46,7 @@ grunt.initConfig({
 	},
 
 	copy: {
-		files: {expand: true, cwd: 'dev/', src: ['**/*.php', '!config.php'], dest: 'prod/'},
+		files: {expand: true, cwd: 'dev/', src: ['**/*.php', '!config.php','libs/font-awesome/fonts'], dest: 'prod/'},
 	},
 
 	htmlmin: {

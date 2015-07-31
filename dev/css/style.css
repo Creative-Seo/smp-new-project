@@ -875,3 +875,13 @@ input[type="submit"], .btn {
 /* line 184, ../sass/style.scss */
 .intro {
   padding: 5px; }
+
+/* line 185, ../sass/style.scss */
+.table td {
+  border: 5px solid #fff; }
+/* line 186, ../sass/style.scss */
+.table tbody > tr:nth-child(odd) td {
+  background-color: #f7f6f3; }
+/* line 187, ../sass/style.scss */
+.table tbody > tr:nth-child(even) td {
+  background-color: #ced5da; }
