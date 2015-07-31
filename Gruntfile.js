@@ -122,14 +122,6 @@ grunt.initConfig({
 			dest: 'prod/'
 		  }]
 		}
-	},
-
-	sitemap: {
-		dist: {
-			pattern: ['/prod/**/'],
-			siteRoot: 'prod/',
-			homepage: 'http://www.xn---245-u5dsm.xn--p1ai/'
-		}
 	}
 		
 });
@@ -150,13 +142,11 @@ grunt.initConfig({
     grunt.loadNpmTasks('grunt-fixmyjs');
     grunt.loadNpmTasks('grunt-uncss');
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
-	grunt.loadNpmTasks('grunt-sitemap');
     
     grunt.registerTask('all', ['csso', 'autoprefixer', 'uglify', 'copy', 'processhtml', 'htmlmin', 'imagemin']);
     grunt.registerTask('css', ['csso', 'autoprefixer']);
 	grunt.registerTask('js', ['uglify']);
 	grunt.registerTask('php', ['copy', 'processhtml', 'htmlmin']);
     grunt.registerTask('img', ['imagemin']);
-    grunt.registerTask('sitemap', ['sitemap']);
 	  
 };

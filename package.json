@@ -7,7 +7,7 @@
     "grunt-contrib-concat": "latest",
     "grunt-contrib-copy": "latest",
     "grunt-contrib-htmlmin": "latest",
-    "grunt-contrib-imagemin": "^0.9.4",
+    "grunt-contrib-imagemin": "latest",
     "grunt-contrib-jshint": "latest",
     "grunt-contrib-uglify": "latest",
     "grunt-contrib-watch": "latest",
@@ -18,10 +18,10 @@
     "grunt-newer": "latest",
     "grunt-postcss": "latest",
     "grunt-processhtml": "latest",
+    "grunt-sitemap": "latest",
     "grunt-uncss": "latest",
     "grunt-wiredep": "latest",
-    "time-grunt": "latest",
-	"grunt-contrib-imagemin": "latest",
-	"grunt-sitemap": "latest"
+    "grunt-xml-sitemap": "^0.2.0",
+    "time-grunt": "latest"
   }
 }
