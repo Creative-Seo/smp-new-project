@@ -1,156 +1,139 @@
 module.exports = function (grunt) {
-  require('time-grunt')(grunt);
+	require('time-grunt')(grunt);
 grunt.initConfig({  
  
-csso: {
-  compress: {
-    options: {
-      report: 'gzip'
-    },
-    files: {
-      'prod/css/style.min.css': ['dev/css/style.css', 'dev/css/jquery.fancybox.css', 'dev/css/jquery.bxslider.css']
-    }
-  }
-},
+	csso: {
+	  compress: {
+		options: {
+		  report: 'gzip'
+		},
+		files: {
+		  'prod/css/style.min.css': ['dev/css/style.css', 'dev/css/jquery.fancybox.css', 'dev/css/jquery.bxslider.css']
+		}
+	  }
+	},
 
-autoprefixer: {
-            
-            single_file: {
-                src: 'prod/css/style.min.css',
-                dest: 'prod/css/style.min.css'
-              }  
-},
+	autoprefixer: {
+		single_file: {
+			src: 'prod/css/style.min.css',
+			dest: 'prod/css/style.min.css'
+		}  
+	},
 
-jshint: {
-    options: {
-    jshintrc: true
-    },
-    all: 'dev/js/common.js'
-},
+	jshint: {
+		options: {jshintrc: true},
+		all: 'dev/js/common.js'
+	},
 
-uglify: {
-  my_target: {
-    files: {
-        'prod/js/scripts.min.js': ['dev/libs/jquery/dist/jquery.min.js', 'dev/js/jquery.bxslider.min.js', 'dev/libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/js/jquery.fancybox.js', 'dev/js/helpers/jquery.fancybox-thumbs.js', 'dev/js/jquery.mousewheel-3.0.6.pack.js', 'dev/js/jquery.maskedinput.min.js', 'dev/js/jquery.carouFredSel-6.1.0-packed.js', 'dev/js/common.js']
-      }
-    }
-  },
+	uglify: {
+	  my_target: {
+		files: {
+			'prod/js/scripts.min.js': ['dev/libs/jquery/dist/jquery.min.js', 'dev/js/jquery.bxslider.min.js', 'dev/libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/js/jquery.fancybox.js', 'dev/js/helpers/jquery.fancybox-thumbs.js', 'dev/js/jquery.mousewheel-3.0.6.pack.js', 'dev/js/jquery.maskedinput.min.js', 'dev/js/jquery.carouFredSel-6.1.0-packed.js', 'dev/js/common.js']
+		}
+	  }
+	},
 
-fixmyjs: {
-    options: {
-      config: 'dev/.jshintrc', 
-      indentpref: 'spaces'
-    },
-    test: {
-      files: [
-        {src: ['dev/js/common.js'], dest: 'dev/js/common.js', ext: '.js'}
-      ]
-    }
-},  
-copy: {
-  
-    files: 
-     
-      {expand: true, cwd: 'dev/', src: ['**/*.php', '!config.php'], dest: 'prod/'},
+	fixmyjs: {
+		options: {
+		  config: 'dev/.jshintrc', 
+		  indentpref: 'spaces'
+		},
+		test: {
+		  files: [
+			{src: ['dev/js/common.js'], dest: 'dev/js/common.js', ext: '.js'}
+		  ]
+		}
+	},
 
-  
-}, 
-htmlmin: {                                     // Task
-  dist: {                                      // Target
-    options: {                                 // Target options
-        
-        removeComments: true,
-        collapseWhitespace: true
-      },
-    files: [{                                   
-	    expand: true,
-		cwd: 'prod/',
-        src: ['**/*.php', '*.php', '!config.php'],
-		dest: 'prod/'     
-       
-    }]
-    
-    
-  }
-},
-watch: {
-    html: {
-        files: ['*.html','*/*.html', '!dist/*.html', '!release/*.html'],
-        tasks: ['includereplace', 'processhtml']
-    },
-	css: {
-        files: ['css/*.css'],
-        tasks: ['cssmin']
-    }
-},
+	copy: {
+		files: {expand: true, cwd: 'dev/', src: ['**/*.php', '!config.php'], dest: 'prod/'},
+	},
 
-processhtml: {
-	dev:{
-        options: {
-          process: true,
-  },
-  files: [
-          {
-          expand: true,     
-          cwd: 'dev/',   
-          src: ['blocks/meta.php', 'blocks/footer.php'],
-          dest: 'prod/'  
-          
-        },
-        ],
-  }  
-},
+	htmlmin: {
+	  dist: {
+		options: {
+			removeComments: true,
+			collapseWhitespace: true
+		  },
+		files: [{                                   
+			expand: true,
+			cwd: 'prod/',
+			src: ['**/*.php', '*.php', '!config.php'],
+			dest: 'prod/'     
+		}]
+	  }
+	},
 
-wiredep: {
+	watch: {
+		html: {
+			files: ['*.html','*/*.html', '!dist/*.html', '!release/*.html'],
+			tasks: ['includereplace', 'processhtml']
+		},
+		css: {
+			files: ['css/*.css'],
+			tasks: ['cssmin']
+		}
+	},
 
-  task: {
+	processhtml: {
+	  dev:{
+		options: {
+			process: true,
+		},
+		files: [{
+			expand: true,     
+			cwd: 'prod/',   
+			src: ['blocks/meta.php', 'blocks/footer.php'],
+			dest: 'prod/'  
+		}]
+	  }  
+	},
 
-    
-    src: [
-       
-      'dev/blocks/meta.php' 
-      
-    ],
+	wiredep: {
+	  task: {
+		src: ['dev/blocks/meta.php'],
+		options: {}
+	  }
+	},
 
-    options: {
-     
-    }
-  }
-},
+	critical: {
+		test: {
+			options: {
+				base: './',
+				css: ['prod/css/style.min.css'],
+				width: 1600,
+				height: 1500
+			},
+			files: [{                                   
+				expand: true,
+				cwd: 'prod/',
+				src: ['index.html'],
+				dest: 'prod/'
+			}]
+		}
+	},
 
-critical: {
-    test: {
-        options: {
-            base: './',
-            css: [
-                'prod/css/style.min.css'
-            ],
-            width: 1600,
-            height: 1500
-        },
-        files: [{                                   
-      expand: true,
-    cwd: 'prod/',
-        src: ['index.html'],
-    dest: 'prod/'     // 'destination': 'source'
-       
-      }]
-    }
-},
+	imagemin: {
+		dynamic: {
+		  files: [{
+			expand: true,
+			cwd: 'dev/',
+			src: ['**/*.{png,jpg,gif,JPG}','!libs/*.{png,jpg,gif,JPG}'],
+			dest: 'prod/'
+		  }]
+		}
+	},
 
-imagemin: {
-    dynamic: {
-      files: [{
-        expand: true,                  // Enable dynamic expansion
-        cwd: 'dev/',                   // Src matches are relative to this path
-        src: ['**/*.{png,jpg,gif,JPG}'],   // Actual patterns to match
-        dest: 'prod/'                  // Destination path prefix
-      }]
-    }
-  }
-       
-    });
- 
+	sitemap: {
+		dist: {
+			pattern: ['/prod/**/'],
+			siteRoot: 'prod/',
+			homepage: 'http://www.xn---245-u5dsm.xn--p1ai/'
+		}
+	}
+		
+});
+
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
@@ -162,16 +145,18 @@ imagemin: {
     grunt.loadNpmTasks('grunt-postcss');
     grunt.loadNpmTasks('grunt-csso');
     grunt.loadNpmTasks('grunt-wiredep');
-    grunt.loadNpmTasks('time-grunt');
     grunt.loadNpmTasks('grunt-critical');
     grunt.loadNpmTasks('grunt-autoprefixer');
     grunt.loadNpmTasks('grunt-fixmyjs');
     grunt.loadNpmTasks('grunt-uncss');
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
-
+	grunt.loadNpmTasks('grunt-sitemap');
     
     grunt.registerTask('all', ['csso', 'autoprefixer', 'uglify', 'copy', 'processhtml', 'htmlmin', 'imagemin']);
+    grunt.registerTask('css', ['csso', 'autoprefixer']);
+	grunt.registerTask('js', ['uglify']);
+	grunt.registerTask('php', ['copy', 'processhtml', 'htmlmin']);
     grunt.registerTask('img', ['imagemin']);
-    grunt.registerTask('default', ['uglify']);
+    grunt.registerTask('sitemap', ['sitemap']);
 	  
 };

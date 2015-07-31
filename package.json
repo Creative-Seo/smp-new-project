@@ -21,6 +21,7 @@
     "grunt-uncss": "latest",
     "grunt-wiredep": "latest",
     "time-grunt": "latest",
-	"grunt-contrib-imagemin": "latest"
+	"grunt-contrib-imagemin": "latest",
+	"grunt-sitemap": "latest"
   }
 }

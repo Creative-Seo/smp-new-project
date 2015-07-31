@@ -63,48 +63,44 @@ include($root."/blocks/header.php"); ?>
 <div class="container">
  <div class="row">
   <div class="grid">
-   <div class="col-md-3 slide-setka">
+	<div class="col-md-3 slide-setka">
 	<figure class="effect-sadie">
 						<img src="/img/1.jpg" alt="img02" class="img-responsive"/>
 						<figcaption>
 							<h2>Аренда спецтехники</h2>
-							
 							<a href="/arenda-spectehniki/">View more</a>
 						</figcaption>			
 	</figure>
-   </div>	
-   <div class="col-md-3 slide-setka">
+	</div>	
+	<div class="col-md-3 slide-setka">
 	<figure class="effect-sadie">
 						<img src="/img/3.jpg" alt="img02" class="img-responsive" />
 						<figcaption>
 							<h2>Сваебойные работы</h2>
-							
 							<a href="/zabivka-svay/#">View more</a>
 						</figcaption>			
 	</figure> 
 	</div>
-   <div class="col-md-3 slide-setka">
+	<div class="col-md-3 slide-setka">
 	<figure class="effect-sadie">
 						<img src="/img/4.jpg" alt="img02" class="img-responsive" />
 						<figcaption>
 							<h2>Гражданское строительство</h2>
-							
 							<a href="/grazhdanskoe-stroitelstvo/">View more</a>
 						</figcaption>			
 	</figure>
-   </div>	
-   <div class="col-md-3 slide-setka">
+	</div>	
+	<div class="col-md-3 slide-setka">
 	<figure class="effect-sadie">
 						<img src="/img/5.jpg" alt="img02" class="img-responsive" />
 						<figcaption>
 							<h2>Промышленное строительство</h2>
-							
 							<a href="/promyshlennoe-stroitelstvo/">View more</a>
 						</figcaption>			
 	</figure> 
 	</div>
-	
-  </div><!-- grid -->	
+
+	</div>
   </div>				
 </div>
 
@@ -122,11 +118,11 @@ include($root."/blocks/header.php"); ?>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12">
 					<img src="/img/29.jpg" alt="car5" class="img-responsive" />
-					<a class="fancybox-thumb" rel="gallery1" href="/img/29.jpg" title="Автоцентр "Рено", г.Ковров"><span>Строительство автоцентра "Рено", г.Ковров. Выполнен комплекс общестроительных работ: монтаж несущих конструкций, ограждающих стеновых конструкций, кровля на основе мембранной пленки.</span></a>
+					<a class="fancybox-thumb" rel="gallery1" href="/img/29.jpg" title='Автоцентр "Рено", г.Ковров'><span>Строительство автоцентра "Рено", г.Ковров. Выполнен комплекс общестроительных работ: монтаж несущих конструкций, ограждающих стеновых конструкций, кровля на основе мембранной пленки.</span></a>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12">
 					<img src="/img/30.jpg" alt="car6" class="img-responsive" />
-					<a class="fancybox-thumb" rel="gallery1" href="/img/30.jpg" title="Нежилое строение ООО «Аскона»"><span>Нежилое строение «Производство полиэтиленовой пленки и синтепона», ООО «Аскона», г. Ковров, Владимирская область. Выполнен полный комплекс строительных работ: фундамент, каркас, кровля, промышленные топинговые полы.</span></a>
+					<a class="fancybox-thumb" rel="gallery1" href="/img/30.jpg" title='Нежилое строение ООО «Аскона»'><span>Нежилое строение «Производство полиэтиленовой пленки и синтепона», ООО «Аскона», г. Ковров, Владимирская область. Выполнен полный комплекс строительных работ: фундамент, каркас, кровля, промышленные топинговые полы.</span></a>
 				</div>
 	</div>
   </div>
@@ -147,16 +143,15 @@ include($root."/blocks/header.php"); ?>
    <div class="row">
       <h2 class="h2">Обратная связь</h2>	
      <form>
-      <div class="col-left col-md-4">
-       <input type="text" placeholder="Ваше имя" value="" name="FB_NAME">
-       <input type="text" placeholder="E-mail" value="" name="FB_EMAIL">
-       <input type="text" placeholder="Телефон" value="" name="FB_PHONE">
-      </div>
-      <div class="col-right col-md-8">
-        <textarea placeholder="Текст сообщения" name="FB_COMMENTS"></textarea>
-        <input type="submit" value="Отправить" class="pull-right">
-      </div>
-      
+		<div class="col-left col-md-4">
+			<input type="text" placeholder="Ваше имя" value="" name="FB_NAME">
+			<input type="text" placeholder="E-mail" value="" name="FB_EMAIL">
+			<input type="text" placeholder="Телефон" value="" name="FB_PHONE">
+		</div>
+		<div class="col-right col-md-8">
+			<textarea placeholder="Текст сообщения" name="FB_COMMENTS"></textarea>
+			<input type="submit" value="Отправить" class="pull-right">
+		</div>
      </form>
    </div>
 </div>
