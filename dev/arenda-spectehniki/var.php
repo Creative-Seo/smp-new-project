@@ -1,3 +1,6 @@
+<?php $title = 'Аренда спецтехники'; ?>
+<?php $description = ''; ?>
+<?php $keywords = ''; ?>
 <?php $array = json_decode('[
 {"name":"Аренда экскаватора","url":"arenda-ekskavatora"},
 {"name":"Аренда экскаватора погрузчика","url":"arenda-ekskavatora-pogruzchika"},

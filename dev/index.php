@@ -1,9 +1,7 @@
-<?php $title = 'СМП-245 - строительная компания'; ?>
-<?php $description = ''; ?>
-<?php $keywords = ''; ?>
-<?php $root = '';
+<?php include("var.php");
+$root = '';
 include($root."blocks/meta.php");
-include($root."blocks/header.php"); ?>
+include($root."blocks/header.php");?>
 
 <section id="pixroll">
 	<div class="pixroll-wrapper">

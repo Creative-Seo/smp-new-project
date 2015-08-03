@@ -1,3 +1,6 @@
+<?php $title = 'Построенные объекты'; ?>
+<?php $description = ''; ?>
+<?php $keywords = ''; ?>
 <?php $bd = json_decode('[
 {"img":"bogobolyubovo.jpg","alt":"Складской терминал, пос.Боголюбово","text1":"Складской терминал, пос.Боголюбово","text2":"","text3":""},
 {"img":"gidrosooruzheniya.jpg","alt":"Гидросооружения","text1":"Гидросооружения","text2":"Возведение платины №2, №3 г.Goodwill, Ковровский район","text3":""},

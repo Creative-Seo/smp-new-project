@@ -1,11 +1,7 @@
-<?php $title = 'Забивка свай, свайные работы. Услуги по погружению свай ЗАО «СМП-245»'; ?>
-<?php $description = ''; ?>
-<?php $keywords = ''; ?>
-<?php 
+<?php include("var.php");
 $root = '../';
 include($root."blocks/meta.php");
-include($root."blocks/header.php"); 
-?>
+include($root."blocks/header.php");?>
 
 <article>
 <div class="container">

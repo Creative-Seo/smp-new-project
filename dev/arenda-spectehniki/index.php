@@ -1,12 +1,8 @@
-<?php $title = 'Аренда спецтехники'; ?>
-<?php $description = ''; ?>
-<?php $keywords = ''; ?>
-<?php 
+<?php include("var.php");
 $root = '../';
 include($root."blocks/meta.php");
-include($root."blocks/header.php");
-include("array.php");
-?>
+include($root."blocks/header.php");?>
+
 <article>
 <div class="container">
 <div class="row">

@@ -1,11 +1,8 @@
-<?php $title = 'Лицензии и свидетельства'; ?>
-<?php $description = ''; ?>
-<?php $keywords = ''; ?>
-<?php 
+<?php include("var.php");
 $root = '../';
 include($root."blocks/meta.php");
-include($root."blocks/header.php"); 
-?>
+include($root."blocks/header.php");?>
+
 <style type="text/css">
 
 		</style>
