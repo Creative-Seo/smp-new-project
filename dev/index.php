@@ -2,8 +2,8 @@
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
 <?php $root = '';
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php"); ?>
+include($root."blocks/meta.php");
+include($root."blocks/header.php"); ?>
 
 <section id="pixroll">
 	<div class="pixroll-wrapper">
@@ -156,4 +156,4 @@ include($root."/blocks/header.php"); ?>
    </div>
 </div>
 
-<?php include($root."/blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

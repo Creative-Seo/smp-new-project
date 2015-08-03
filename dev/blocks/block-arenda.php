@@ -1,10 +1,10 @@
 <?php 
 $breadcrumb_url = 'arenda-spectehniki';
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");?>
+include($root."blocks/meta.php");
+include($root."blocks/header.php");?>
 
 <article class="container">
-<?php include($root."/blocks/breadcrumbs.php"); ?>
+<?php include($root."blocks/breadcrumbs.php"); ?>
 	<h1 class="h1"><?php echo $breadcrumb;?></h1>
 	<div class="row">
 		<div class="col-md-6"><img class="img-responsive" src="glav.jpg" alt="<?php echo $title;?>"></div>
@@ -20,7 +20,7 @@ include($root."/blocks/header.php");?>
 			</table>
 <?php } ?>
 		<div class="row">
-			<div class="col-md-7"><span style="font-size:1.3em">Цена за час работы:<nobr>
+			<div class="col-md-7"><span style="font-size:1.3em">Цена за час работы: <nobr>
 <?php if($array['cost']=='договорная') { ?><strong style="font-size:1.3em"> договорная</strong></nobr>
 <?php } else { ?><strong style="color:red; font-size:1.5em"> <?php echo $array['cost'];?> руб.</strong></nobr><?php } ?>
 			</span></div>
@@ -31,7 +31,7 @@ include($root."/blocks/header.php");?>
 	<p style="margin-top:30px;"><?php echo $array['opisanie'];?></p>
 <?php 
 $photo_alt=$array['name'];
-include($root."/blocks/img_col.php"); ?>
+include($root."blocks/img_col.php"); ?>
 </article>
 
-<?php include($root."/blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

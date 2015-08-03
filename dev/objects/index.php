@@ -3,9 +3,9 @@
 <?php $keywords = ''; ?>
 <?php include("array.php"); ?>
 <?php 
-$root = '..';
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php"); 
+$root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php"); 
 ?>
 
 <article>
@@ -25,4 +25,4 @@ include($root."/blocks/header.php");
 </div>
 </article>
 
-<?php include($root."/blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

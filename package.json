@@ -18,6 +18,7 @@
     "grunt-newer": "latest",
     "grunt-postcss": "latest",
     "grunt-processhtml": "latest",
+    "grunt-responsive-images": "^0.1.6",
     "grunt-sitemap": "latest",
     "grunt-uncss": "latest",
     "grunt-wiredep": "latest",

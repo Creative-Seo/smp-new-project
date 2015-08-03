@@ -6,6 +6,7 @@ css_dir = "dev/css"
 sass_dir = "dev/sass"
 images_dir = "dev/img"
 javascripts_dir = "dev/js"
+fonts_dir = "dev/fonts"
 
 output_style = :nested
 environment = :development

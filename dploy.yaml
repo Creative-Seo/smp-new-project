@@ -1,4 +1,4 @@
-beget:
+smp:
     scheme: ftp
     host: hugo.beget.ru
    
@@ -7,5 +7,5 @@ beget:
     check: true
     path:
         local: prod/
-        remote: /vptorg.ru/public_html/
+        remote: /smp-245.rf/public_html/
 

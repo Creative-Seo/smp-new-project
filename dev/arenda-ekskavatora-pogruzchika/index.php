@@ -5,7 +5,8 @@ $breadcrumb = 'Аренда экскаватора погрузчика';
 $text='<p>'.$description.'</p>';
 $array=json_decode('[
 {"name":"Экскаватор ДЭМ-114","url":"ekskavator-dem-114"},
-{"name":"Фронтальный погрузчик XGMA XG93211","url":"pogruzchik-xgma-xg93211"}
+{"name":"Фронтальный погрузчик XGMA XG93211","url":"pogruzchik-xgma-xg93211"},
+{"name":"Бульдозер ДТ-75","url":"buldozer-dt-75"}
 ]',true);
 include("../project.php"); ?>
 

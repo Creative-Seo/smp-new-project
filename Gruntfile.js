@@ -46,7 +46,9 @@ grunt.initConfig({
 	},
 
 	copy: {
-		files: {expand: true, cwd: 'dev/', src: ['**/*.php', '!config.php','libs/font-awesome/fonts'], dest: 'prod/'},
+		main: {files: [{expand: true, cwd: 'dev/', src: ['**/*.php', '!config.php','libs/font-awesome/fonts','sitemap.xml','.htaccess'], dest: 'prod/'},
+				{expand: true, cwd: 'dev/libs/font-awesome/fonts', src: ['**'], dest: 'prod/fonts'}]
+		}
 	},
 
 	htmlmin: {
@@ -82,7 +84,7 @@ grunt.initConfig({
 		},
 		files: [{
 			expand: true,     
-			cwd: 'prod/',   
+			cwd: 'dev/',   
 			src: ['blocks/meta.php', 'blocks/footer.php'],
 			dest: 'prod/'  
 		}]
@@ -122,8 +124,8 @@ grunt.initConfig({
 			dest: 'prod/'
 		  }]
 		}
-	}
-		
+	},
+
 });
 
     grunt.loadNpmTasks('grunt-contrib-concat');
@@ -143,7 +145,7 @@ grunt.initConfig({
     grunt.loadNpmTasks('grunt-uncss');
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
     
-    grunt.registerTask('all', ['csso', 'autoprefixer', 'uglify', 'copy', 'processhtml', 'htmlmin', 'imagemin']);
+    grunt.registerTask('all', ['csso', 'autoprefixer', 'uglify', 'copy', 'processhtml', 'htmlmin']);
     grunt.registerTask('css', ['csso', 'autoprefixer']);
 	grunt.registerTask('js', ['uglify']);
 	grunt.registerTask('php', ['copy', 'processhtml', 'htmlmin']);

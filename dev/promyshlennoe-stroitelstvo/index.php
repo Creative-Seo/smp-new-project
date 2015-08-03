@@ -2,9 +2,9 @@
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
 <?php 
-$root = '..';
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php"); 
+$root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php"); 
 ?>
 
 <article>
@@ -34,4 +34,4 @@ include($root."/blocks/header.php");
    </div><!-- row -->
 </div><!-- container -->
 </article>
-<?php include($root."/blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

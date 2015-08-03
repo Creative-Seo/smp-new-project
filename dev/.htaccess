@@ -84,3 +84,41 @@ ExpiresByType image/png "access plus 1 years"
 </IfModule>
 
 ErrorDocument 404 /404.html
+
+Redirect 301 /avtobusy/mikroavtobus-fiat-ducato/ /arenda-spectehniki/mikroavtobus-fiat-ducato/
+Redirect 301 /gruzovye-avtomobili/kamaz-55111s-samosval/ /arenda-spectehniki/kamaz-55111s-samosval/
+Redirect 301 /gruzovye-avtomobili/kamaz-65115-samosval/ /arenda-spectehniki/kamaz-65115-samosval/
+Redirect 301 /gruzovye-avtomobili/kamaz-6520-63-samosval/ /arenda-spectehniki/kamaz-6520-63-samosval/
+Redirect 301 /gruzovye-avtomobili/ma3-6422a8-330-sedelnyy-tyagach/ /arenda-spectehniki/ma3-6422a8-330-sedelnyy-tyagach/
+Redirect 301 /mashiny-dlya-zemlyanyh-rabot/buldozer-dt-75/ /arenda-mikroavtobusa/buldozer-dt-75/
+Redirect 301 /mashiny-dlya-zemlyanyh-rabot/ekskavator-dem-114/ /arenda-mikroavtobusa/ekskavator-dem-114/
+Redirect 301 /mashiny-dlya-zemlyanyh-rabot/ekskavator-ek-18-60/ /arenda-mikroavtobusa/ekskavator-ek-18-60/
+Redirect 301 /mashiny-dlya-zemlyanyh-rabot/ekskavator-eo-4225/ /arenda-mikroavtobusa/ekskavator-eo-4225/
+Redirect 301 /mashiny-dlya-zemlyanyh-rabot/ekskavator-hyundai-r170w-7/ /arenda-mikroavtobusa/ekskavator-hyundai-r170w-7/
+Redirect 301 /mashiny-dlya-zemlyanyh-rabot/gidrobur-na-dem-114/ /arenda-mikroavtobusa/gidrobur-na-dem-114/
+Redirect 301 /mashiny-dlya-zemlyanyh-rabot/gidromolot-na-dem-114/ /arenda-mikroavtobusa/gidromolot-na-dem-114/
+Redirect 301 /mashiny-dlya-zemlyanyh-rabot/gidromolot-na-hyundai-r170w-7/ /arenda-mikroavtobusa/gidromolot-na-hyundai-r170w-7/
+Redirect 301 /mashiny-dlya-zemlyanyh-rabot/pogruzchik-xgma-xg93211/ /arenda-mikroavtobusa/pogruzchik-xgma-xg93211/
+Redirect 301 /mashiny-dlya-zemlyanyh-rabot/vibroplita-na-hyundai-r170w-7/ /arenda-mikroavtobusa/vibroplita-na-hyundai-r170w-7/
+Redirect 301 /mashiny-dorozhnye/katok-trotuarnyy/ /arenda-spectehniki/katok-trotuarnyy/
+Redirect 301 /mashiny-podyomno-transportnye/kran-manipulyator-na-kamaz-65117/ /arenda-spectehniki/kran-manipulyator-na-kamaz-65117/
+Redirect 301 /mashiny-podyomno-transportnye/kran-na-hodu-edk-803/ /arenda-spectehniki/kran-na-hodu-edk-803/
+Redirect 301 /mashiny-podyomno-transportnye/kran-na-hodu-kde-163-s-greyferom/ /arenda-spectehniki/kran-na-hodu-kde-163-s-greyferom/
+Redirect 301 /mashiny-podyomno-transportnye/kran-na-hodu-ks-3577-2/ /arenda-spectehniki/kran-na-hodu-ks-3577-2/
+Redirect 301 /mashiny-podyomno-transportnye/kran-na-hodu-ks-3577-3/ /arenda-spectehniki/kran-na-hodu-ks-3577-3/
+Redirect 301 /mashiny-podyomno-transportnye/kran-na-hodu-ks-45717-k/ /arenda-spectehniki/kran-na-hodu-ks-45717-k/
+Redirect 301 /mashiny-podyomno-transportnye/kran-na-hodu-xzj-qz25k/ /arenda-spectehniki/kran-na-hodu-xzj-qz25k/
+Redirect 301 /mehanizmy-dlya-pogruzheniya-svay/mobilnyy-vibropogruzhatel-mvf-1/ /arenda-spectehniki/mobilnyy-vibropogruzhatel-mvf-1/
+Redirect 301 /mehanizmy-dlya-pogruzheniya-svay/svaeboynaya-ustanovka-sp-49d/ /arenda-spectehniki/svaeboynaya-ustanovka-sp-49d/
+Redirect 301 /mehanizmy-dlya-pogruzheniya-svay/vibropogruzhatel-avf-1/ /arenda-spectehniki/vibropogruzhatel-avf-1/
+Redirect 301 /passazhirskie-avtomobili/gazel-gaz-2834/ /arenda-spectehniki/gazel-gaz-2834/
+Redirect 301 /passazhirskie-avtomobili/gazel-gaz-330232/ /arenda-spectehniki/gazel-gaz-330232/
+Redirect 301 /passazhirskie-avtomobili/sobol-gaz-2752/ /arenda-spectehniki/sobol-gaz-2752/
+
+Redirect 301 /avtobusy/ /arenda-mikroavtobusa/
+Redirect 301 /gruzovye-avtomobili/ /arenda-kamaza/
+Redirect 301 /mashiny-dlya-zemlyanyh-rabot/ /arenda-ekskavatora/
+Redirect 301 /mashiny-dorozhnye/ /arenda-katka/
+Redirect 301 /mashiny-podyomno-transportnye/ /arenda-avtokrana/
+Redirect 301 /mehanizmy-dlya-pogruzheniya-svay/ /arenda-svaeboya/
+Redirect 301 /passazhirskie-avtomobili/ /arenda-mikroavtobusa/
