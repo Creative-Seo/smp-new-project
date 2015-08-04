@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2015-08-04 11:09">
+<shop>
+<name>Строительная компания СМП-245</name>
+<company>&amp;quot;СМП-245&amp;quot;</company>
+<url>http://www.смп-245.рф</url>
+<phone>+7(4922) 32-32-04</phone>
+<platform>Yandex.YML</platform>
+<version>1.6.6.1</version>
+<currencies>
+<currency id="RUB" rate="1" />
+</currencies>
+<categories>
+<category id="1" >
+Аренда экскаватора ДЭМ-114</category>
+</categories>
+<offers>
+<offer id="1200" available="true" group_id="1" >
+<url>http://www.смп-245.рф/arenda-spectehniki/ekskavator-dem-114/</url>
+<price>1110</price>
+<currencyId>RUB</currencyId>
+<categoryId>1</categoryId>
+<picture>http://www.смп-245.рф/arenda-spectehniki/ekskavator-dem-114/glav.jpg</picture>
+<delivery>true</delivery>
+<name>Аренда экскаватора ДЭМ-114</name>
+<vendorCode>Аренда экскаватора ДЭМ-114</vendorCode>
+<description>Экскаватор ДЭМ-114 предназначен для выполнения экскаваторных работ на грунтах 1-4 категории.</description>
+<manufacturer_warranty>true</manufacturer_warranty>
+<param name="Мощность двигателя" unit="л.с.">81</param>
+</offer>
+</offers>
+</shop></yml_catalog>
