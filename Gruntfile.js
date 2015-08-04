@@ -1,5 +1,5 @@
 module.exports = function (grunt) {
-	require('time-grunt')(grunt);
+	
 grunt.initConfig({  
  
 	csso: {
@@ -125,6 +125,19 @@ grunt.initConfig({
 		  }]
 		}
 	},
+	postcss: {
+      options: {
+        processors: [
+          
+          require('cssgrace'),
+        ]
+      },
+      dist: {
+        src: ['prod/css/style.min.css'],
+        dest: 'prod/css/style.min.css'
+      }
+    }
+	
 
 });
 
@@ -144,8 +157,10 @@ grunt.initConfig({
     grunt.loadNpmTasks('grunt-fixmyjs');
     grunt.loadNpmTasks('grunt-uncss');
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
+	grunt.loadNpmTasks('grunt-contrib-csslint');
     
-    grunt.registerTask('all', ['csso', 'autoprefixer', 'uglify', 'copy', 'processhtml', 'htmlmin']);
+    grunt.registerTask('default', ['postcss']);
+    grunt.registerTask('all', ['postcss']);
     grunt.registerTask('css', ['csso', 'autoprefixer']);
 	grunt.registerTask('js', ['uglify']);
 	grunt.registerTask('php', ['copy', 'processhtml', 'htmlmin']);
