@@ -1,10 +1,11 @@
-<?php $title = 'Кран на ж. д. ходу ЕДК-80/3'; ?>
-<?php $description = ''; ?>
-<?php $keywords = ''; ?>
-<?php $breadcrumb = 'Кран на ж. д. ходу ЕДК-80/3'; ?>
-<?php $array = json_decode('{"name":"ЕДК-80/3","cost":"1730",
-"table":[{"name":"Технические характеристики ЕДК-80/3","tb":[
-["Грузоподъемность","20т"],["Тип хода","Железная дорога"]]}],
-"opisanie":""
-}',true);
-include("../project.php"); ?>
+<?php include('../../bd.php');
+$name = 'kran-na-hodu-edk-803';
+$array = $bd[$name];
+
+$title = $array['name'];
+$description = '';
+$keywords = '';
+$breadcrumb = $array['name'];
+$table = json_decode('[{"name":"Технические характеристики ЕДК-80/3","tb":[["Грузоподъемность","20т"],["Тип хода","Железная дорога"]]}]',true);
+$opisanie = '';
+?>
