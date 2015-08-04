@@ -1,5 +1,11 @@
-<?php $title = 'Виброплита на базе экскаватора HYUNDAI R170W-71'; ?>
-<?php $description = ''; ?>
-<?php $keywords = ''; ?>
-<?php $breadcrumb = 'Виброплита на базе экскаватора HYUNDAI R170W-7'; ?>
-<?php $array = json_decode('{"":""}',true);?>
+<?php include('../../bd.php');
+$name = 'vibroplita-na-hyundai-r170w-7';
+$array = $bd[$name];
+
+$title = $array['name'];
+$description = '';
+$keywords = '';
+$breadcrumb = $array['name'];
+$table = json_decode('[]',true);
+$opisanie = '';
+?>

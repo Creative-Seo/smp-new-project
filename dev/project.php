@@ -12,6 +12,7 @@ include($root."blocks/header.php"); ?>
 			<a href="<?php echo '/arenda-spectehniki/'.$row['url'];?>">
 				<img class="img-responsive center-block" src="<?php echo '/arenda-spectehniki/'.$row['url'].'/glav.jpg';?>" alt="<?php echo $row['name'];?>">
 				<p class="text-center"><?php echo $row['name'];?></p>
+				<p class="text-center">Цена от <?php echo $row['name'];?> руб. за час работы</p>
 			</a>
 		</div>
 <?php $clearfix ='';
