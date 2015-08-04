@@ -3,12 +3,5 @@ $description = 'Аренда строительного автокрана, ав
 $keywords = 'аренда автокрана владимир ковров муром';
 $breadcrumb = 'Аренда автокрана';
 $text='<p>В нашем автопарке представлен широкий выбор кранов, грузоподъемностью от 14 до 60 тонн, с длиной стрелы от 22 до 47 метров. Предоставляем технику в аренду во Владимире и по всей области.</p>';
-$array=json_decode('[
-{"name":"Кран на а/ходу КС-3577-3","url":"kran-na-hodu-ks-3577-3","cost":"1160"},
-{"name":"Кран на а/ходу КС-3577-2","url":"kran-na-hodu-ks-3577-2","cost":"1160"},
-{"name":"Кран на а/ходу КС-45717-К","url":"kran-na-hodu-ks-45717-k","cost":"1510"},
-{"name":"Кран на а/ходу XZJ QZ25K","url":"kran-na-hodu-xzj-qz25k","cost":"1970"},
-{"name":"Кран манипулятор автомобильный на базе КАМАЗ-65117","url":"kran-manipulyator-na-kamaz-65117","cost":"1510"},
-{"name":"Кран на ж. д. ходу ЕДК-80/3","url":"kran-na-hodu-edk-803","cost":"1730"},
-{"name":"Кран на ж. д. ходу КДЭ-163 с грейфером","url":"kran-na-hodu-kde-163-s-greyferom","cost":"1540"}
-]',true);?>
+$array=['kran-na-hodu-ks-3577-3','kran-na-hodu-ks-3577-2','kran-na-hodu-ks-45717-k','kran-na-hodu-xzj-qz25k','kran-manipulyator-na-kamaz-65117','kran-na-hodu-edk-803','kran-na-hodu-kde-163-s-greyferom'];
+?>

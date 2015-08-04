@@ -3,8 +3,5 @@ $description = 'Аренда сваебойных установок во Вла
 $keywords = 'Аренда сваебоя, Аренда сваебойных машин, Аренда сваебойных установок, владимир';
 $breadcrumb = 'Механизмы для погружения свай и фундаментов';
 $text='<p></p>';
-$array=json_decode('[
-{"name":"Мобильный вибропогружатель свайных фундаментов и свай МВФ-1","url":"mobilnyy-vibropogruzhatel-mvf-1"},
-{"name":"Сваебойная установка СП-49Д","url":"svaeboynaya-ustanovka-sp-49d"},
-{"name":"Вибропогружатель АВФ-1","url":"vibropogruzhatel-avf-1"}
-]',true);?>
+$array=['mobilnyy-vibropogruzhatel-mvf-1','svaeboynaya-ustanovka-sp-49d','vibropogruzhatel-avf-1'];
+?>

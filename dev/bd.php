@@ -7,6 +7,7 @@
 "gazel-gaz-2834":{"name":"Газель ГАЗ-2834 (грузопассажирс.)","cost":"<span>700</span> руб."},
 "gazel-gaz-330232":{"name":"Газель ГАЗ-330232 (грузопассажирс.)","cost":"<span>700</span> руб."},
 "gidrobur-na-dem-114":{"name":"Гидробур(гл. до 3 м, 0 до 350 мм) на базе экскаватора ДЭМ-114","cost":"<span>1390</span> руб."},
+"gidromolot-na-dem-114":{"name":"Гидромолот на базе экскаватора ДЭМ-114","cost":"<span>1390</span> руб."},
 "gidromolot-na-hyundai-r170w-7":{"name":"Гидромолот на базе экскаватора HYUNDAI R170W-7","cost":"<span>1390</span> руб."},
 "kamaz-55111s-samosval":{"name":"КАМАЗ 55111с (самосвал)","cost":"<span>1120</span> руб."},
 "kamaz-65115-samosval":{"name":"КАМАЗ 65115 (самосвал)","cost":"<span>1230</span> руб."},
