@@ -33,7 +33,7 @@ include($root."blocks/header.php");?>
 			<img class="img-responsive center-block" src="<?php echo '/img/arenda/'.$row['url'].'.jpg';?>" alt="<?php echo $row['name'];?>">
 			<p class="text-center"><?php echo $row['name'];?></p>
 		</a>
-		<p class="text-center">Цена от <?php echo $row['cost'];?> руб. за час работы</p>
+		<p class="text-center">Цена от&nbsp;<?php echo $row['cost'];?> руб. за час работы</p>
 	</div>
 <?php $clearfix ='';
 	if (($key+1) % 2 == 0) {$clearfix=' visible-sm';}
