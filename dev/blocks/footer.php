@@ -9,7 +9,7 @@
 					<meta itemprop="addressCountry" content="RU">
 					<span itemprop="postalCode">600000</span>,
 					<span itemprop="addressLocality"> Владимир</span>,
-					<span itemprop="streetAddress"> Коммунальный спуск, д.1</span>
+					<span itemprop="streetAddress"><nobr> Коммунальный спуск, д.1</nobr></span>
 				</li>
 				<li class="foot-mail"><i class="fa fa-envelope-o"></i> <a href="mailto:smp245@bk.ru" itemprop="email">smp245@bk.ru</a></li>
 				<li class="sozseti">
