@@ -1,18 +1,23 @@
-<footer>
+<footer itemscope itemtype="http://schema.org/Organization">
 	<div class="container">
 	  <div class="row">
 		<div class="col-md-4">
 			<ul>
-				<li class="tel">8 (4922) 32 32 04</li>	
-				<li class="foot-adr"><i class="fa fa-map-marker fa-2x"></i> Коммунальный спуск, д.1</li>
-				<li class="foot-mail"><i class="fa fa-envelope-o"></i> <a href="mailto:smp245@bk.ru">smp245@bk.ru</a></li>
+				<li class="tel" itemprop="telephone">8 (4922) 32 32 04</li>	
+				<li class="foot-adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+					<i class="fa fa-map-marker fa-2x"></i>
+					<meta itemprop="addressCountry" content="RU">
+					<span itemprop="postalCode">600000</span>,
+					<span itemprop="addressLocality"> Владимир</span>,
+					<span itemprop="streetAddress"> Коммунальный спуск, д.1</span>
+				</li>
+				<li class="foot-mail"><i class="fa fa-envelope-o"></i> <a href="mailto:smp245@bk.ru" itemprop="email">smp245@bk.ru</a></li>
 				<li class="sozseti">
 	            <script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script><div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="small" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,gplus" data-yashareTheme="counter"></div> 
 				</li>				
 			</ul>
 		</div>
 		<div class="col-md-4">
-		  
 			<ul>
 				<li><a href="/grazhdanskoe-stroitelstvo/">Гражданское строительство</a></li>
 				<li><a href="/promyshlennoe-stroitelstvo/">Промышленное строительство</a></li>
@@ -21,7 +26,6 @@
 			</ul>
 		</div>
 		<div class="col-md-4">
-		    
 			<ul>
 			    <li><a href="/arenda-spectehniki/">Аренда спецтехники</a></li>
 				<li><a href="/licenses/">Лицензии</a></li>
@@ -32,7 +36,7 @@
 		</div>	
 	</div>
 	<div class="footer-bottom row">
-	    <span>© 2013-2015 ЗАО «СМП-245-ТРАНССТРОЙ»</span>
+	    <span>© 2013-2015 <span itemprop="name">ЗАО «СМП-245-ТРАНССТРОЙ»</span></span>
 	    <div class="pull-right"><!-- Yandex.Metrika informer --><a href="https://metrika.yandex.ru/stat/?id=30537562&amp;from=informer" target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/30537562/3_1_FFFFFFFF_EFEFEFFF_0_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:30537562,lang:'ru'});return false}catch(e){}"/></a><!-- /Yandex.Metrika informer --><!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter30537562 = new Ya.Metrika({id:30537562, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/30537562" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
 	</div>
 	</div>

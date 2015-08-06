@@ -1,3 +1,15 @@
+function send_e(e,t){
+	var n=$(e).find('#name').val(),
+		tel=$(e).find('#tel').val();
+	$.post('/email.php',
+			{n:n, t:t, tel:tel, key:'qtSQtDyOAomGcSZWgoUFJbelb7gFz1fq'},function(data){if (!(data)){alert('Ошибка отправки данных.');}}
+		).done(function(data) {
+			$('#modal-ok').fadeIn().delay(1000).fadeOut();
+		}).fail(function() {
+			alert('Ошибка подключения.');
+		});
+}
+
 $(function() {
 	$('#images > div').each(function() {
 		var $cfs = $(this);
@@ -29,7 +41,8 @@ $(document).ready(function() {
 	$('ul.nav li.dropdown').hover(function() {$(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(400);}, 
 		function() {$(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(400);});
 	$('.open-modal').click(function(){$('#modal-zakaz').modal('show');});
-	$("#tel").mask("+7 (999) 999-9999");
+	$('#tel').mask("+7 (999) 999-9999");
+	$('#send_btn').click(function () {if ($('#tel').val!='') {send_e('#contact-form','Заказ с сайта')}});
 //Back To Top	
 	var offset = 300,
 		offset_opacity = 1200,
@@ -86,35 +99,4 @@ $(function () {
             pixSlider.goToPrevSlide();
         }
     });
-
-});
-
-//back to top
-jQuery(document).ready(function($){
-	// browser window scroll (in pixels) after which the "back to top" link is shown
-	var offset = 300,
-		//browser window scroll (in pixels) after which the "back to top" link opacity is reduced
-		offset_opacity = 1200,
-		//duration of the top scrolling animation (in ms)
-		scroll_top_duration = 700,
-		//grab the "back to top" link
-		$back_to_top = $('.cd-top');
-
-	//hide or show the "back to top" link
-	$(window).scroll(function(){
-		( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
-		if( $(this).scrollTop() > offset_opacity ) { 
-			$back_to_top.addClass('cd-fade-out');
-		}
-	});
-
-	//smooth scroll to top
-	$back_to_top.on('click', function(event){
-		event.preventDefault();
-		$('body,html').animate({
-			scrollTop: 0 ,
-		 	}, scroll_top_duration
-		);
-	});
-
 });

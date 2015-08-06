@@ -20,7 +20,7 @@
 "kran-na-hodu-ks-3577-3":{"name":"Кран на а/ходу КС-3577-3","cost":"<span>1160</span> руб."},
 "kran-na-hodu-ks-45717-k":{"name":"Кран на а/ходу КС-45717-К","cost":"<span>1510</span> руб."},
 "kran-na-hodu-xzj-qz25k":{"name":"Кран на а/ходу XZJ QZ25K","cost":"<span>1970</span> руб."},
-"ma3-6422a8-330-sedelnyy-tyagach":{"name":"MA3-6422A8-330 (седельный тягач)","cost":"<span>1600</span> руб."},
+"maz-6422a8-330-sedelnyy-tyagach":{"name":"MA3-6422A8-330 (седельный тягач)","cost":"<span>1600</span> руб."},
 "mikroavtobus-fiat-ducato":{"name":"Микроавтобус Fiat DUCATO","cost":"<span>750</span> руб."},
 "mobilnyy-vibropogruzhatel-mvf-1":{"name":"Мобильный вибропогружатель свайных фундаментов и свай МВФ-1","cost":"договорная"},
 "pogruzchik-xgma-xg93211":{"name":"Фронтальный погрузчик XGMA XG93211","cost":"<span>1300</span> руб."},
