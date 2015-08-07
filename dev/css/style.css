@@ -7905,3 +7905,9 @@ input[type="submit"], .btn {
 /* line 188, ../sass/style.scss */
 .text-block {
   margin: 20px 0; }
+
+/* line 189, ../sass/style.scss */
+.block-tehnika span[itemprop=price] {
+  font-size: 18px;
+  font-weight: 700;
+  color: red; }

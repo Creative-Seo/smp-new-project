@@ -1,16 +1,16 @@
 <?php $title = 'Аренда спецтехники во Владимире и Владимирской области, цены'; ?>
 <?php $description = 'Аренда спецтехники во Владимире и Владимирской области, сдаем в аренду строительную и дорожную технику, большой собственный автопарк'; ?>
 <?php $keywords = 'аренда спецтехники, владимир'; ?>
-<?php $array = json_decode('[
-{"name":"Аренда экскаватора","url":"arenda-ekskavatora","cost":"1110"},
-{"name":"Аренда экскаватора погрузчика","url":"arenda-ekskavatora-pogruzchika","cost":"1110"},
-{"name":"Аренда экскаватора с гидромолотом","url":"arenda-ekskavatora-s-gidromolotom","cost":"1110"},
-{"name":"Аренда гидромолота","url":"arenda-gidromolota","cost":"1110"},
-{"name":"Аренда сваебоя","url":"arenda-svaeboya","cost":"1500"},
-{"name":"Аренда автокрана","url":"arenda-avtokrana","cost":"1160"},
-{"name":"Аренда катка","url":"arenda-katka","cost":"1000"},
-{"name":"Аренда камаза","url":"arenda-kamaza","cost":"1120"},
-{"name":"Аренда самосвала","url":"arenda-samosvala","cost":"1120"},
-{"name":"Аренда газели","url":"arenda-gazeli","cost":"700"},
-{"name":"Аренда микроавтобуса","url":"arenda-mikroavtobusa","cost":"700"}
-]',true); ?>
+<?php $array = json_decode('{
+"arenda-ekskavatora":{"name":"Аренда экскаватора","cost":"1110"},
+"arenda-ekskavatora-pogruzchika":{"name":"Аренда экскаватора погрузчика","cost":"1110"},
+"arenda-ekskavatora-s-gidromolotom":{"name":"Аренда экскаватора с гидромолотом","cost":"1110"},
+"arenda-gidromolota":{"name":"Аренда гидромолота","cost":"1110"},
+"arenda-svaeboya":{"name":"Аренда сваебоя","cost":"1500"},
+"arenda-avtokrana":{"name":"Аренда автокрана","cost":"1160"},
+"arenda-katka":{"name":"Аренда катка","cost":"1000"},
+"arenda-kamaza":{"name":"Аренда камаза","cost":"1120"},
+"arenda-samosvala":{"name":"Аренда самосвала","cost":"1120"},
+"arenda-gazeli":{"name":"Аренда газели","cost":"700"},
+"arenda-mikroavtobusa":{"name":"Аренда микроавтобуса","cost":"700"}
+}',true); ?>

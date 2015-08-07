@@ -18,24 +18,16 @@ include($root."blocks/header.php");?>
 	<p>Кроме этого, ЗАО «СМП-245-ТРАНССТРОЙ» предоставляет в аренду базу с подъездным и повышенным железнодорожным путём, производственные помещения и охраняемую площадку для хранения материалов.</p>
 </div>
 
-<div class="row">
-<?php foreach($array as $key => $row) { ?>
-	<div class="col-sm-6 col-md-4 col-lg-3">
-		<a href="<?php echo '/'.$row['url'];?>">
-			<img class="img-responsive center-block" src="<?php echo '/img/arenda/'.$row['url'].'.jpg';?>" alt="<?php echo $row['name'];?>">
-			<p class="text-center"><?php echo $row['name'];?></p>
-		</a>
-		<p class="text-center">Цена от&nbsp;<?php echo $row['cost'];?> руб. за час работы</p>
-	</div>
-<?php $clearfix ='';
-	if (($key+1) % 2 == 0) {$clearfix=' visible-sm';}
-	if (($key+1) % 3 == 0) {$clearfix=$clearfix.' visible-md';}
-	if (($key+1) % 4 == 0) {$clearfix=$clearfix.' visible-lg';}
-	if (strlen($clearfix)>0) {
+<?php 
+$bd = $array;
+$block_tehnika = array();
+$block_tehnika_cena = 'Цена от&nbsp;';
+$block_tehnika_url = '/';
+$block_tehnika_img = '/img/arenda/';
+foreach ($bd as $key => $val) { array_push($block_tehnika, $key); }
+include($root."blocks/block-tehnika.php");
 ?>
-	<div class="clearfix<?php echo $clearfix; ?>"></div>
-<?php }} ?>
-</div>
+
 </br>
 <p class="text-center">База ЗАО «СМП-245-Трансстрой» тел.: 49-34-27 (адрес: г. Владмир, ул. Большая Нижегородская д.124 а)</p>
 </article>
