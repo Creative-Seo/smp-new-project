@@ -3,5 +3,5 @@ $description = 'Аренда самосвалов Камаз во Владими
 $keywords = '';
 $breadcrumb = 'Аренда самосвала';
 $text='<p>Самосвалы применяются для перевозки навалочных, или сыпучих, или иных грузов, пригодных для такой выгрузки, которая производится посредством их опрокидывания из кузова.</p>';
-$array=['kran-manipulyator-na-kamaz-65117','kamaz-55111s-samosval','kamaz-65115-samosval','kamaz-6520-63-samosval','ma3-6422a8-330-sedelnyy-tyagach'];
+$array=['kran-manipulyator-na-kamaz-65117','kamaz-55111s-samosval','kamaz-65115-samosval','kamaz-6520-63-samosval','maz-6422a8-330-sedelnyy-tyagach'];
 ?>
