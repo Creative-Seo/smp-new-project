@@ -24,7 +24,7 @@ include($root."blocks/header.php");?>
 <?php if($array['cost']=='договорная') { ?>
 				<strong style="font-size:1.3em" itemprop="price">договорная</strong><meta itemprop="priceCurrency" content="RUB">
 <?php } else { ?>
-				<strong style="color:red; font-size:1.5em" itemprop="price"><?php echo $array['cost'];?></strong><meta itemprop="priceCurrency" content="RUB">
+				<strong style="color:red; font-size:1.5em" itemprop="price"><?php echo $array['cost'];?></strong>&nbsp;руб.<meta itemprop="priceCurrency" content="RUB">
 <?php } ?>
 			</nobr></span></div>
 			<div class="col-md-5"><button class="btn btn-danger open-modal">Заказать аренду</button></div>
