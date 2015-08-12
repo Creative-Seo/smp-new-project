@@ -27,7 +27,7 @@ if(!empty($n) || !empty($t)) {
 	$body .= "<hr>\n";
 
 $to = 'smp245@bk.ru';
-$subject = 'Заказ проекта';
+$subject = 'СМП-245.рф';
 $body = <<<EOF
 <html>
 <head>
@@ -42,7 +42,7 @@ EOF;
 
 $headers  = "MIME-Version: 1.0\r\n";
 $headers .= "Content-type: text/html; charset=UTF-8\r\n";
-$headers .= "From: SITE <info@sk-goldenhome.ru>\r\n";
+$headers .= "From: SITE <smp245@bk.ru>\r\n";
 
 if(mail($to, $subject, $body, $headers)) echo true;
 	else echo false;

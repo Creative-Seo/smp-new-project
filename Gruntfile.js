@@ -47,7 +47,7 @@ grunt.initConfig({
 
 	copy: {
 		main: {files: [{expand: true, cwd: 'dev/', src: ['**/*.php', '!config.php', 'libs/font-awesome/fonts','.htaccess'], dest: 'prod/'},
-				{expand: true, cwd: 'dev/libs/font-awesome/fonts', src: ['**'], dest: 'prod/fonts'}]
+				{expand: true, cwd: 'dev/libs/**/fonts', src: ['**'], dest: 'prod/fonts'}]
 		}
 	},
 
@@ -60,7 +60,7 @@ grunt.initConfig({
 		files: [{                                   
 			expand: true,
 			cwd: 'prod/',
-			src: ['**/*.php', '*.php', '!config.php', '!**/var.php', '!var.php'],
+			src: ['**/*.php', '*.php', '!config.php', '!**/var.php', '!var.php', '!email.php'],
 			dest: 'prod/'     
 		}]
 	  }
