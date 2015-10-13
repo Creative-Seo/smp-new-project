@@ -2,3 +2,4 @@ node_modules/
 .sass-cache/
 dploy.yaml
 dev/libs/
+dev/css/style.css

@@ -42,6 +42,14 @@ ul li {list-style-type: none;}
     	}
     }}
 }
+.white-a{
+	text-decoration:none;
+	color:#fff;
+	&:hover, &:focus {
+		text-decoration:none;
+		color:#aaa;
+	}
+}
 
 .slide-setka {
     padding: 0;

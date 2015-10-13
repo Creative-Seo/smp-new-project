@@ -7699,11 +7699,20 @@ ul li {
     .numbers > div div:nth-child(3) {
       background-color: #0B1829; }
 
-/* line 46, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
+.white-a {
+  text-decoration: none;
+  color: #fff; }
+  /* line 48, ../sass/style.scss */
+  .white-a:hover, .white-a:focus {
+    text-decoration: none;
+    color: #aaa; }
+
+/* line 54, ../sass/style.scss */
 .slide-setka {
   padding: 0; }
 
-/* line 50, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 #images span {
   background-color: black;
   color: #ccc;
@@ -7712,15 +7721,15 @@ ul li {
   width: 100%;
   height: 100%;
   padding: 40px 30px 0 30px; }
-/* line 59, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 #images div {
   padding: 0; }
 
-/* line 62, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .feedback {
   padding-bottom: 54px;
   position: relative; }
-  /* line 65, ../sass/style.scss */
+  /* line 73, ../sass/style.scss */
   .feedback input[type="text"] {
     border: 1px solid #d7d7d7;
     border-radius: 0;
@@ -7728,7 +7737,7 @@ ul li {
     margin: 10px 0;
     padding: 10px;
     width: 328px; }
-  /* line 73, ../sass/style.scss */
+  /* line 81, ../sass/style.scss */
   .feedback textarea {
     border: 1px solid #d7d7d7;
     border-radius: 0;
@@ -7737,56 +7746,56 @@ ul li {
     max-width: 553px;
     padding: 10px;
     width: 553px; }
-  /* line 82, ../sass/style.scss */
+  /* line 90, ../sass/style.scss */
   .feedback .col-right {
     width: 575px; }
-    /* line 84, ../sass/style.scss */
+    /* line 92, ../sass/style.scss */
     .feedback .col-right button {
       float: left; }
 
-/* line 90, ../sass/style.scss */
+/* line 98, ../sass/style.scss */
 #modal-zakaz .modal-header {
   background: #21476B;
   color: #FFF;
   border-radius: 4px 4px 0 0; }
-/* line 95, ../sass/style.scss */
+/* line 103, ../sass/style.scss */
 #modal-zakaz h4, #modal-zakaz label {
   font-weight: 300; }
-/* line 96, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 #modal-zakaz label {
   font-weight: 400; }
-/* line 97, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 #modal-zakaz .jotform-form {
   width: 100%; }
-/* line 98, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 #modal-zakaz ul {
   padding: 0; }
-/* line 99, ../sass/style.scss */
+/* line 107, ../sass/style.scss */
 #modal-zakaz .close {
   color: #fff;
   opacity: 0.5;
   padding: 5px; }
-/* line 104, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 #modal-zakaz .modal-otpr {
   text-align: center;
   background-color: #ccc;
   border-radius: 0 0 4px 4px; }
-/* line 109, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 #modal-zakaz .modal-otpr a {
   color: #222;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
   font-size: 18px; }
 
-/* line 116, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
 .contact-form label {
   color: #b7b7b7;
   display: block;
   margin-bottom: 7px;
   padding-left: 10px; }
-/* line 122, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 .contact-form li {
   list-style: outside none none; }
-/* line 123, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea, .contact-form select {
   border: 1px solid #ccc;
   box-sizing: border-box;
@@ -7794,15 +7803,15 @@ ul li {
   outline: medium none;
   padding: 0 7px;
   width: 100% !important; }
-  /* line 130, ../sass/style.scss */
+  /* line 138, ../sass/style.scss */
   .contact-form input[type="text"]:hover, .contact-form input[type="text"]:focus, .contact-form input[type="email"]:hover, .contact-form input[type="email"]:focus, .contact-form textarea:hover, .contact-form textarea:focus, .contact-form select:hover, .contact-form select:focus {
     border-color: #124994;
     box-shadow: 0 0 5px #124994; }
-/* line 132, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .contact-form textarea {
   height: 120px;
   resize: none; }
-/* line 133, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .contact-form button {
   background: #124994 none repeat scroll 0 0;
   border: medium none;
@@ -7813,12 +7822,12 @@ ul li {
   height: 60px;
   outline: 0 none;
   width: 100%; }
-  /* line 143, ../sass/style.scss */
+  /* line 151, ../sass/style.scss */
   .contact-form button:hover, .contact-form button:focus {
     opacity: 0.9;
     text-shadow: 0 0 8px white; }
 
-/* line 146, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
 .form-line {
   background: transparent none repeat scroll 0 0;
   font-size: 18px;
@@ -7828,50 +7837,50 @@ ul li {
   position: relative;
   width: 100%; }
 
-/* line 155, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 .cont-tel {
   font-size: 22px;
   padding: 5px; }
 
-/* line 156, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 .cont .cont2 {
   margin-top: 10px; }
 
-/* line 157, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 .rekv {
   padding-left: 5px; }
 
-/* line 158, ../sass/style.scss */
+/* line 166, ../sass/style.scss */
 .cont i {
   margin-right: 5px;
   vertical-align: middle; }
 
-/* line 159, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .jotform-form {
   width: 80%; }
 
-/* line 160, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 .tcboard {
   border-top: 1px solid #cbcbcb;
   margin-bottom: -18px; }
 
-/* line 161, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 .tc {
   margin-top: 30px;
   text-align: center; }
 
-/* line 162, ../sass/style.scss */
+/* line 170, ../sass/style.scss */
 .likeh2 {
   font-size: 24px;
   padding-bottom: 20px; }
 
-/* line 163, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 .besplcons {
   background-color: #fff;
   padding-left: 20px;
   padding-right: 20px; }
 
-/* line 168, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 input[type="submit"], .btn {
   background: none repeat scroll 0 0 #21476B;
   border: 0 none;
@@ -7888,25 +7897,25 @@ input[type="submit"], .btn {
   text-align: center;
   text-transform: uppercase; }
 
-/* line 184, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 .intro {
   padding: 5px; }
 
-/* line 185, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .table td {
   border: 5px solid #fff; }
-/* line 186, ../sass/style.scss */
+/* line 194, ../sass/style.scss */
 .table tbody > tr:nth-child(odd) td {
   background-color: #f7f6f3; }
-/* line 187, ../sass/style.scss */
+/* line 195, ../sass/style.scss */
 .table tbody > tr:nth-child(even) td {
   background-color: #ced5da; }
 
-/* line 188, ../sass/style.scss */
+/* line 196, ../sass/style.scss */
 .text-block {
   margin: 20px 0; }
 
-/* line 189, ../sass/style.scss */
+/* line 197, ../sass/style.scss */
 .block-tehnika span[itemprop=price] {
   font-size: 18px;
   font-weight: 700;
